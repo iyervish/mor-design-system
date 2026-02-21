@@ -71,7 +71,7 @@ export default function PIBAnnouncements() {
   const gridReleases = releases.slice(1);
 
   return (
-    <div className="morni min-h-screen" style={{ backgroundColor: 'var(--color-background)' }}>
+    <div className="mor min-h-screen" style={{ backgroundColor: 'var(--color-background)' }}>
       <GovBanner />
 
       {/* Header */}

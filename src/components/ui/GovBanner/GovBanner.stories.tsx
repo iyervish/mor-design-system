@@ -16,5 +16,5 @@ export const propDefinitions: PropDef[] = [
 
 export const codeSnippets = {
   default: `<GovBanner />`,
-  spanish: `<GovBanner language="es" />`,
+  hindi: `<GovBanner language="hi" />`,
 };

@@ -9,7 +9,7 @@ export default function DocsLayout() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="morni min-h-screen" style={{ backgroundColor: 'var(--color-background)' }}>
+    <div className="mor min-h-screen" style={{ backgroundColor: 'var(--color-background)' }}>
       <TopBar
         theme={theme}
         onToggleTheme={toggleTheme}
@@ -19,7 +19,7 @@ export default function DocsLayout() {
       <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
       <main
-        className="transition-all duration-200 morni-paisley"
+        className="transition-all duration-200 mor-paisley"
         style={{
           marginTop: 'var(--topbar-height)',
           marginLeft: '0',

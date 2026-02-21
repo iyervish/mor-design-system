@@ -24,7 +24,7 @@ export default function ComponentPage() {
 
   if (!meta || !registry) {
     return (
-      <div className="morni-prose">
+      <div className="mor-prose">
         <h1>Component Not Found</h1>
         <p style={{ color: 'var(--color-text-secondary)' }}>
           The component "{slug}" doesn't exist yet or hasn't been documented.
@@ -44,7 +44,7 @@ export default function ComponentPage() {
   return (
     <>
       <TableOfContents items={tocItems} />
-      <div className="morni-prose">
+      <div className="mor-prose">
         {/* Header */}
         <div className="mb-2">
           <Link
@@ -101,7 +101,7 @@ export default function ComponentPage() {
         <h2 id="usage">Usage</h2>
         <CodeBlock
           title={`Import ${meta.name}`}
-          code={`import { ${meta.name} } from '@morni/components/${meta.name}';`}
+          code={`import { ${meta.name} } from '@mor/components/${meta.name}';`}
         />
         {registry.usageCode && (
           <div className="mt-4">

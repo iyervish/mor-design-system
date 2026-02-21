@@ -8,14 +8,14 @@ import type { PropDef } from '../../docs/PropsTable';
 export const variants = [
   {
     title: 'Default',
-    component: <Input label="Full name" placeholder="Jane Doe" />,
+    component: <Input label="Full name" placeholder="Priya Sharma" />,
   },
   {
     title: 'With helper text',
     component: (
       <Input
         label="Email address"
-        placeholder="jane@example.com"
+        placeholder="priya@example.gov.in"
         type="email"
         helperText="We will never share your email."
       />
@@ -35,17 +35,17 @@ export const variants = [
   {
     title: 'Disabled',
     component: (
-      <Input label="SSN" placeholder="XXX-XX-XXXX" disabled />
+      <Input label="Aadhaar Number" placeholder="XXXX XXXX XXXX" disabled />
     ),
   },
   {
     title: 'Small size',
-    component: <Input label="ZIP code" placeholder="12345" size="sm" />,
+    component: <Input label="PIN Code" placeholder="110001" size="sm" />,
   },
   {
     title: 'Large size',
     component: (
-      <Input label="Address" placeholder="123 Main St" size="lg" />
+      <Input label="Address" placeholder="Flat 12, Sector 5, New Delhi" size="lg" />
     ),
   },
 ];
@@ -105,11 +105,11 @@ export const propDefinitions: PropDef[] = [
 /*  Code snippets                                                     */
 /* ------------------------------------------------------------------ */
 
-export const basicUsage = `<Input label="Full name" placeholder="Jane Doe" />`;
+export const basicUsage = `<Input label="Full name" placeholder="Priya Sharma" />`;
 
 export const withHelperText = `<Input
   label="Email address"
-  placeholder="jane@example.com"
+  placeholder="priya@example.gov.in"
   type="email"
   helperText="We will never share your email."
 />`;

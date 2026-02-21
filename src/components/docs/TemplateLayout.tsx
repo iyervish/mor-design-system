@@ -6,7 +6,7 @@ export default function TemplateLayout() {
   useTheme();
 
   return (
-    <div className="morni min-h-screen" style={{ backgroundColor: 'var(--color-background)' }}>
+    <div className="mor min-h-screen" style={{ backgroundColor: 'var(--color-background)' }}>
       <div
         className="fixed top-4 left-4 z-50"
       >

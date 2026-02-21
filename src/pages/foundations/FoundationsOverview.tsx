@@ -4,7 +4,7 @@ import { Palette, Type, Ruler, Layers, Sparkles, Move } from 'lucide-react';
 const foundations = [
   {
     title: 'Principles',
-    description: 'The core design principles that guide every decision in the Morni design system.',
+    description: 'The core design principles that guide every decision in the Mor design system.',
     icon: Sparkles,
     href: '/foundations/principles',
     accent: 'var(--sona-100)',
@@ -54,10 +54,10 @@ const foundations = [
 
 export default function FoundationsOverview() {
   return (
-    <div className="morni-prose">
+    <div className="mor-prose">
       <h1>Foundations</h1>
       <p className="text-lg" style={{ color: 'var(--color-text-secondary)' }}>
-        The building blocks of the Morni design system. These tokens and principles
+        The building blocks of the Mor design system. These tokens and principles
         ensure consistency across every component and pattern.
       </p>
 

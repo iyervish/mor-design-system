@@ -23,11 +23,11 @@ export default function TemplatesOverview() {
   const categories = [...new Set(templates.map(t => t.category))];
 
   return (
-    <div className="morni-prose">
+    <div className="mor-prose">
       <h1>Templates</h1>
       <p className="text-lg" style={{ color: 'var(--color-text-secondary)' }}>
         Full-page demos showing the design system in action. Each template is a
-        complete, production-ready layout composed from Morni components and patterns.
+        complete, production-ready layout composed from Mor components and patterns.
       </p>
 
       {categories.map(category => (

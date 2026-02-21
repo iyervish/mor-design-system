@@ -69,7 +69,7 @@ const stats = [
 
 export default function MCAPortal() {
   return (
-    <div className="morni min-h-screen" style={{ backgroundColor: 'var(--color-background)' }}>
+    <div className="mor min-h-screen" style={{ backgroundColor: 'var(--color-background)' }}>
       <GovBanner />
 
       {/* Header */}
@@ -174,7 +174,7 @@ export default function MCAPortal() {
                 <CardDescription>Search if your proposed company name is available</CardDescription>
               </CardHeader>
               <CardContent className="space-y-3">
-                <Input label="" placeholder="e.g. Morni Technologies" />
+                <Input label="" placeholder="e.g. Mor Technologies" />
                 <Button size="sm" className="w-full">
                   <SearchIcon size={14} className="mr-1.5" />
                   Check Availability

@@ -1,9 +1,9 @@
-interface MorniLogoProps {
+interface MorLogoProps {
   size?: number;
   className?: string;
 }
 
-export default function MorniLogo({ size = 28, className = '' }: MorniLogoProps) {
+export default function MorLogo({ size = 28, className = '' }: MorLogoProps) {
   return (
     <svg
       width={size}

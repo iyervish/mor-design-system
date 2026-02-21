@@ -235,11 +235,11 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
       'Don\'t use red for non-error states',
     ],
     usageCode: `<Input
-  label="Social Security Number"
+  label="Aadhaar Number"
   type="text"
-  placeholder="XXX-XX-XXXX"
+  placeholder="XXXX XXXX XXXX"
   helperText="Required for benefit applications"
-  error={errors.ssn}
+  error={errors.aadhaar}
 />`,
   },
 
@@ -248,23 +248,23 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
     defaultPreview: (
       <div className="w-full max-w-sm">
         <Select
-          label="State"
+          label="State / UT"
           placeholder="Select a state"
           options={[
-            { value: 'va', label: 'Virginia' },
-            { value: 'md', label: 'Maryland' },
-            { value: 'dc', label: 'District of Columbia' },
+            { value: 'mh', label: 'Maharashtra' },
+            { value: 'tn', label: 'Tamil Nadu' },
+            { value: 'ka', label: 'Karnataka' },
           ]}
         />
       </div>
     ),
     defaultCode: `<Select
-  label="State"
+  label="State / UT"
   placeholder="Select a state"
   options={[
-    { value: 'va', label: 'Virginia' },
-    { value: 'md', label: 'Maryland' },
-    { value: 'dc', label: 'District of Columbia' },
+    { value: 'mh', label: 'Maharashtra' },
+    { value: 'tn', label: 'Tamil Nadu' },
+    { value: 'ka', label: 'Karnataka' },
   ]}
 />`,
     variants: [
@@ -309,13 +309,13 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
     defaultPreview: (
       <div className="space-y-3">
         <Checkbox label="I agree to the terms and conditions" />
-        <Checkbox label="Subscribe to newsletter" description="Get monthly updates about Virginia services" />
+        <Checkbox label="Subscribe to newsletter" description="Get monthly updates about government services" />
         <Checkbox label="Disabled option" disabled />
       </div>
     ),
     defaultCode: `<Checkbox label="I agree to the terms and conditions" />
 <Checkbox label="Subscribe to newsletter"
-  description="Get monthly updates about Virginia services" />
+  description="Get monthly updates about government services" />
 <Checkbox label="Disabled option" disabled />`,
     propDefinitions: [
       { name: 'label', type: 'string', required: true, description: 'Checkbox label' },
@@ -507,8 +507,8 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
       <div className="w-full max-w-sm">
         <Card>
           <CardHeader>
-            <CardTitle>Virginia DMV</CardTitle>
-            <CardDescription>Renew your driver's license online</CardDescription>
+            <CardTitle>Parivahan Sewa</CardTitle>
+            <CardDescription>Renew your driving licence online</CardDescription>
           </CardHeader>
           <CardContent>
             <p style={{ color: 'var(--color-text-secondary)', fontSize: '0.875rem' }}>
@@ -523,8 +523,8 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
     ),
     defaultCode: `<Card>
   <CardHeader>
-    <CardTitle>Virginia DMV</CardTitle>
-    <CardDescription>Renew your driver's license</CardDescription>
+    <CardTitle>Parivahan Sewa</CardTitle>
+    <CardDescription>Renew your driving licence</CardDescription>
   </CardHeader>
   <CardContent>
     <p>Complete your renewal in minutes.</p>
@@ -638,18 +638,18 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
         </TableHeader>
         <TableBody>
           <TableRow>
-            <TableCell>John Smith</TableCell>
-            <TableCell>Fairfax</TableCell>
+            <TableCell>Rahul Sharma</TableCell>
+            <TableCell>Delhi</TableCell>
             <TableCell><Badge variant="success" size="sm">Active</Badge></TableCell>
           </TableRow>
           <TableRow>
-            <TableCell>Jane Doe</TableCell>
-            <TableCell>Arlington</TableCell>
+            <TableCell>Priya Nair</TableCell>
+            <TableCell>Mumbai</TableCell>
             <TableCell><Badge variant="warning" size="sm">Pending</Badge></TableCell>
           </TableRow>
           <TableRow>
-            <TableCell>Bob Johnson</TableCell>
-            <TableCell>Loudoun</TableCell>
+            <TableCell>Arjun Patel</TableCell>
+            <TableCell>Chennai</TableCell>
             <TableCell><Badge variant="error" size="sm">Expired</Badge></TableCell>
           </TableRow>
         </TableBody>
@@ -659,14 +659,14 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
   <TableHeader>
     <TableRow>
       <TableHead>Name</TableHead>
-      <TableHead>County</TableHead>
+      <TableHead>District</TableHead>
       <TableHead>Status</TableHead>
     </TableRow>
   </TableHeader>
   <TableBody>
     <TableRow>
-      <TableCell>John Smith</TableCell>
-      <TableCell>Fairfax</TableCell>
+      <TableCell>Rahul Sharma</TableCell>
+      <TableCell>Delhi</TableCell>
       <TableCell><Badge variant="success">Active</Badge></TableCell>
     </TableRow>
   </TableBody>
@@ -735,11 +735,11 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
   accordion: {
     defaultPreview: (
       <Accordion type="single" className="w-full">
-        <AccordionItem title="How do I renew my driver's license?">
-          You can renew your Virginia driver's license online, by mail, or in person at any DMV customer service center. Online renewals are available if your license hasn't been expired for more than 2 years.
+        <AccordionItem title="How do I renew my driving licence?">
+          You can renew your driving licence online, by post, or in person at your nearest RTO. Online renewals are available if your licence hasn't been expired for more than 1 year.
         </AccordionItem>
         <AccordionItem title="What documents do I need?">
-          You'll need your current license number, Social Security number, and a valid payment method. If renewing in person, bring two proofs of Virginia residency.
+          You'll need your current licence number, Aadhaar number, and a valid payment method. If renewing in person, bring two proofs of residential address.
         </AccordionItem>
         <AccordionItem title="How long does it take?">
           Online renewals are processed within 7-10 business days. In-person renewals include a temporary license issued the same day.
@@ -747,11 +747,11 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
       </Accordion>
     ),
     defaultCode: `<Accordion type="single">
-  <AccordionItem title="How do I renew my driver's license?">
-    You can renew online, by mail, or in person...
+  <AccordionItem title="How do I renew my driving licence?">
+    You can renew online, by post, or in person at the RTO...
   </AccordionItem>
   <AccordionItem title="What documents do I need?">
-    You'll need your current license number...
+    You'll need your current licence number...
   </AccordionItem>
 </Accordion>`,
     variants: [
@@ -886,14 +886,14 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
   footer: {
     defaultPreview: (
       <Footer
-        siteName="Virginia DMV"
+        siteName="Parivahan Sewa"
         linkGroups={[
           {
             title: 'Services',
             links: [
-              { label: 'License Renewal', href: '#' },
+              { label: 'Licence Renewal', href: '#' },
               { label: 'Vehicle Registration', href: '#' },
-              { label: 'ID Cards', href: '#' },
+              { label: 'Learner Licence', href: '#' },
             ],
           },
           {
@@ -908,14 +908,14 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
       />
     ),
     defaultCode: `<Footer
-  siteName="Virginia DMV"
+  siteName="Parivahan Sewa"
   linkGroups={[
     {
       title: 'Services',
       links: [
-        { label: 'License Renewal', href: '/services/license' },
+        { label: 'Licence Renewal', href: '/services/licence' },
         { label: 'Vehicle Registration', href: '/services/vehicle' },
-        { label: 'ID Cards', href: '/services/id' },
+        { label: 'Learner Licence', href: '/services/learner' },
       ],
     },
     {
@@ -934,7 +934,7 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
         preview: (
           <Footer
             variant="slim"
-            siteName="Virginia.gov"
+            siteName="India.gov.in"
             linkGroups={[{
               title: 'Links',
               links: [
@@ -947,7 +947,7 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
         ),
         code: `<Footer
   variant="slim"
-  siteName="Virginia.gov"
+  siteName="India.gov.in"
   linkGroups={[{
     title: 'Links',
     links: [
@@ -995,17 +995,17 @@ export const componentRegistry: Record<string, ComponentRegistryEntry> = {
     defaultCode: `<GovBanner />`,
     variants: [
       {
-        title: 'Spanish',
+        title: 'Hindi',
         preview: (
           <div className="w-full border rounded-lg overflow-hidden" style={{ borderColor: 'var(--color-border)' }}>
-            <GovBanner language="es" />
+            <GovBanner language="hi" />
           </div>
         ),
-        code: `<GovBanner language="es" />`,
+        code: `<GovBanner language="hi" />`,
       },
     ],
     propDefinitions: [
-      { name: 'language', type: "'en' | 'es'", default: "'en'", description: 'Language for banner content' },
+      { name: 'language', type: "'en' | 'hi'", default: "'en'", description: 'Language for banner content' },
       { name: 'className', type: 'string', description: 'Additional CSS classes' },
     ],
     accessibility: [
@@ -1191,19 +1191,19 @@ const [open, setOpen] = useState(false);
   search: {
     defaultPreview: (
       <div className="w-full max-w-sm">
-        <Search placeholder="Search Virginia services..." />
+        <Search placeholder="Search government services..." />
       </div>
     ),
-    defaultCode: `<Search placeholder="Search Virginia services..." onSearch={handleSearch} />`,
+    defaultCode: `<Search placeholder="Search government services..." onSearch={handleSearch} />`,
     variants: [
       {
         title: 'With Visible Label',
         preview: (
           <div className="w-full max-w-sm">
-            <Search label="Search DMV Services" showLabel placeholder="License, registration..." />
+            <Search label="Search RTO Services" showLabel placeholder="License, registration..." />
           </div>
         ),
-        code: `<Search label="Search DMV Services" showLabel
+        code: `<Search label="Search RTO Services" showLabel
   placeholder="License, registration..." />`,
       },
       {
@@ -1610,7 +1610,7 @@ const [activeTab, setActiveTab] = useState('services');
 </Tooltip>
 
 // Help text tooltip
-<Tooltip content="Your SSN is required for identity verification">
+<Tooltip content="Your Aadhaar number is required for identity verification">
   <span className="underline cursor-help">Why do we need this?</span>
 </Tooltip>`,
   },

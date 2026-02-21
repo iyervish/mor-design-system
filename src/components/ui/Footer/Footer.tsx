@@ -41,7 +41,7 @@ const Footer = React.forwardRef<HTMLElement, FooterProps>(
     ref,
   ) => {
     const currentYear = new Date().getFullYear();
-    const copyrightText = copyright ?? `\u00A9 ${currentYear} ${siteName ?? 'Commonwealth of Virginia'}. All rights reserved.`;
+    const copyrightText = copyright ?? `\u00A9 ${currentYear} ${siteName ?? 'Government of India'}. All rights reserved.`;
 
     if (variant === 'slim') {
       return (

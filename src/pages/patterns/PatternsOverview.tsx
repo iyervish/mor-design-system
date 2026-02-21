@@ -3,7 +3,7 @@ import { patterns } from '../../data/patterns';
 
 export default function PatternsOverview() {
   return (
-    <div className="morni-prose">
+    <div className="mor-prose">
       <h1>Patterns</h1>
       <p className="text-lg" style={{ color: 'var(--color-text-secondary)' }}>
         Multi-component compositions that solve common government service design problems.

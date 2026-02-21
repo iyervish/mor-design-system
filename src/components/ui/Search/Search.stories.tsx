@@ -45,7 +45,7 @@ export const propDefinitions: PropDef[] = [
 
 export const codeSnippets = {
   default: `<Search placeholder="Search services..." onSearch={handleSearch} />`,
-  withLabel: `<Search label="Search DMV Services" showLabel placeholder="License, registration..." />`,
+  withLabel: `<Search label="Search RTO Services" showLabel placeholder="Licence, registration..." />`,
   sizes: `<Search size="sm" placeholder="Small" />
 <Search size="md" placeholder="Medium" />
 <Search size="lg" placeholder="Large" />`,

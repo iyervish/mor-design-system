@@ -30,22 +30,22 @@ function FormPatternPreview() {
 
       <div className="space-y-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <Input label="First name" placeholder="e.g. James" required />
-          <Input label="Last name" placeholder="e.g. Madison" required />
+          <Input label="First name" placeholder="e.g. Rahul" required />
+          <Input label="Last name" placeholder="e.g. Sharma" required />
         </div>
 
-        <Input label="Email address" type="email" placeholder="james.madison@example.gov" required />
+        <Input label="Email address" type="email" placeholder="rahul.sharma@example.gov.in" required />
 
         <Select
-          label="County of residence"
-          placeholder="Select a county"
+          label="District of residence"
+          placeholder="Select a district"
           required
           options={[
-            { value: 'fairfax', label: 'Fairfax County' },
-            { value: 'arlington', label: 'Arlington County' },
-            { value: 'loudoun', label: 'Loudoun County' },
-            { value: 'prince-william', label: 'Prince William County' },
-            { value: 'henrico', label: 'Henrico County' },
+            { value: 'delhi', label: 'New Delhi' },
+            { value: 'mumbai', label: 'Mumbai' },
+            { value: 'bengaluru', label: 'Bengaluru' },
+            { value: 'hyderabad', label: 'Hyderabad' },
+            { value: 'chennai', label: 'Chennai' },
           ]}
         />
 
@@ -70,7 +70,7 @@ function FormPatternPreview() {
 
         <Checkbox
           label="I certify that the information provided is accurate"
-          description="By checking this box, you agree to the terms and conditions of the Commonwealth of Virginia."
+          description="By checking this box, you agree to the terms and conditions of the Government of India."
         />
 
         <div className="flex gap-3 pt-2">
@@ -92,7 +92,7 @@ function FormErrorPreview() {
       <div className="space-y-5 mt-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <Input label="First name" required error="First name is required" />
-          <Input label="Last name" placeholder="Madison" required defaultValue="Madison" />
+          <Input label="Last name" placeholder="Sharma" required defaultValue="Sharma" />
         </div>
 
         <Input
@@ -104,13 +104,13 @@ function FormErrorPreview() {
         />
 
         <Select
-          label="County of residence"
-          placeholder="Select a county"
+          label="District of residence"
+          placeholder="Select a district"
           required
-          error="Please select a county"
+          error="Please select a district"
           options={[
-            { value: 'fairfax', label: 'Fairfax County' },
-            { value: 'arlington', label: 'Arlington County' },
+            { value: 'delhi', label: 'New Delhi' },
+            { value: 'mumbai', label: 'Mumbai' },
           ]}
         />
 
@@ -127,7 +127,7 @@ function FormSuccessPreview() {
   return (
     <div className="max-w-xl mx-auto">
       <Alert variant="success" title="Application submitted successfully">
-        Your application has been received. Your confirmation number is <strong>VA-2025-00847</strong>.
+        Your application has been received. Your confirmation number is <strong>IN-2025-00847</strong>.
         You will receive a confirmation email within 24 hours.
       </Alert>
 
@@ -168,20 +168,20 @@ function SearchResultsPreview() {
 
   const results = [
     {
-      title: "Driver's License Renewal",
-      description: 'Renew your Virginia driver\'s license online or schedule an in-person appointment at your local DMV office.',
-      category: 'DMV Services',
+      title: 'Driving Licence Renewal',
+      description: 'Renew your driving licence online or schedule an in-person appointment at your nearest RTO office.',
+      category: 'Transport Services',
       updated: 'Jan 15, 2025',
     },
     {
       title: 'Vehicle Registration',
-      description: 'Register a new vehicle, transfer a title, or update your vehicle registration information.',
-      category: 'DMV Services',
+      description: 'Register a new vehicle, transfer ownership, or update your vehicle registration information.',
+      category: 'Transport Services',
       updated: 'Feb 3, 2025',
     },
     {
-      title: 'REAL ID Application',
-      description: 'Apply for a REAL ID compliant driver\'s license or identification card for federal purposes.',
+      title: 'DigiLocker Registration',
+      description: 'Access your government-issued documents digitally using your Aadhaar number and mobile OTP.',
       category: 'Identification',
       updated: 'Mar 1, 2025',
     },
@@ -190,7 +190,7 @@ function SearchResultsPreview() {
   return (
     <div className="max-w-2xl mx-auto">
       <Search
-        label="Search Virginia services"
+        label="Search government services"
         showLabel
         placeholder="Search for services, forms, or information..."
         defaultValue="driver license"
@@ -240,7 +240,7 @@ function SearchEmptyPreview() {
   return (
     <div className="max-w-2xl mx-auto">
       <Search
-        label="Search Virginia services"
+        label="Search government services"
         showLabel
         placeholder="Search for services, forms, or information..."
         defaultValue="xyznonexistent"
@@ -287,7 +287,7 @@ function StatusTrackerPreview() {
         Application Status
       </h3>
       <p className="text-sm mb-5" style={{ color: 'var(--color-text-muted)' }}>
-        Tracking ID: <strong>VA-2025-00847</strong>
+        Tracking ID: <strong>IN-2025-00847</strong>
       </p>
 
       <StepIndicator
@@ -388,7 +388,7 @@ function StatusTrackerCompletePreview() {
               <span className="block text-xs font-medium mb-0.5" style={{ color: 'var(--color-text-muted)' }}>
                 Benefit Amount
               </span>
-              <span style={{ color: 'var(--color-text)' }}>$450/month</span>
+              <span style={{ color: 'var(--color-text)' }}>₹4,500/month</span>
             </div>
             <div>
               <span className="block text-xs font-medium mb-0.5" style={{ color: 'var(--color-text-muted)' }}>
@@ -443,11 +443,11 @@ export const patternRegistry: Record<string, PatternRegistryEntry> = {
   <Input label="Email address" type="email" required />
 
   <Select
-    label="County of residence"
+    label="District of residence"
     required
     options={[
-      { value: 'fairfax', label: 'Fairfax County' },
-      { value: 'arlington', label: 'Arlington County' },
+      { value: 'delhi', label: 'New Delhi' },
+      { value: 'mumbai', label: 'Mumbai' },
     ]}
   />
 
@@ -493,7 +493,7 @@ export const patternRegistry: Record<string, PatternRegistryEntry> = {
         title: 'Success State — Confirmation',
         preview: <FormSuccessPreview />,
         code: `<Alert variant="success" title="Application submitted successfully">
-  Your confirmation number is <strong>VA-2025-00847</strong>.
+  Your confirmation number is <strong>IN-2025-00847</strong>.
 </Alert>
 
 <Card variant="outline">
@@ -541,7 +541,7 @@ export const patternRegistry: Record<string, PatternRegistryEntry> = {
   'search-results': {
     defaultPreview: <SearchResultsPreview />,
     defaultCode: `<Search
-  label="Search Virginia services"
+  label="Search government services"
   showLabel
   placeholder="Search for services, forms, or information..."
   size="lg"
@@ -682,7 +682,7 @@ export const patternRegistry: Record<string, PatternRegistryEntry> = {
   <CardContent>
     <div className="grid grid-cols-2 gap-4">
       <div>Decision Date: January 28, 2025</div>
-      <div>Benefit Amount: $450/month</div>
+      <div>Benefit Amount: ₹4,500/month</div>
     </div>
   </CardContent>
   <CardFooter>

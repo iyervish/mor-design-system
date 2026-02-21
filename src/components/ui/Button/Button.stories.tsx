@@ -171,7 +171,7 @@ export const buttonPropDefs: PropDef[] = [
 /*  Code snippets (consumed by LivePreview / CodeBlock)                */
 /* ------------------------------------------------------------------ */
 
-export const basicUsageCode = `import { Button } from '@/morni/components/ui/Button';
+export const basicUsageCode = `import { Button } from '@/mor/components/ui/Button';
 
 <Button variant="primary">Click Me</Button>
 <Button variant="secondary">Secondary</Button>

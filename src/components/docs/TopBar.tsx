@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Sun, Moon, Menu, Github, X } from 'lucide-react';
-import MorniLogo from '../MorniLogo';
+import MorLogo from '../MorLogo';
 
 interface TopBarProps {
   theme: 'light' | 'dark';
@@ -34,14 +34,14 @@ export default function TopBar({ theme, onToggleTheme, sidebarOpen, onToggleSide
           to="/"
           className="flex items-center gap-2.5 no-underline group"
         >
-          <MorniLogo size={28} />
+          <MorLogo size={28} />
           <div className="hidden sm:flex items-center gap-2">
             <div className="flex flex-col leading-none">
               <span
                 className="font-bold text-sm tracking-tight"
                 style={{ color: 'var(--color-text)', fontFamily: 'var(--font-heading)' }}
               >
-                Morni
+                Mor
               </span>
               <span
                 className="text-[10px] tracking-wide"
@@ -74,7 +74,7 @@ export default function TopBar({ theme, onToggleTheme, sidebarOpen, onToggleSide
         </button>
 
         <a
-          href="https://github.com/iyervish/morni-design-system"
+          href="https://github.com/iyervish/mor-design-system"
           target="_blank"
           rel="noopener noreferrer"
           className="p-2 rounded-md transition-colors"

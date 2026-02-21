@@ -8,7 +8,7 @@ import { Badge } from '../components/ui/Badge';
 import { Input } from '../components/ui/Input';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '../components/ui/Card';
 import { colorFamilies } from '../tokens/colors';
-import MorniLogo from '../components/MorniLogo';
+import MorLogo from '../components/MorLogo';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -55,7 +55,7 @@ const stats = [
 ];
 
 const principles = [
-  { icon: Eye, title: 'High-Quality by Default', desc: 'Government teams shouldn\'t have to start from scratch. Morni provides production-ready components, patterns, and templates so every team begins with a solid, well-crafted foundation.' },
+  { icon: Eye, title: 'High-Quality by Default', desc: 'Government teams shouldn\'t have to start from scratch. Mor provides production-ready components, patterns, and templates so every team begins with a solid, well-crafted foundation.' },
   { icon: Users, title: 'Citizen-Centered', desc: 'Every design decision starts with the citizen. Clear language, obvious actions, minimal cognitive load. Government services should be as easy as the best consumer products.' },
   { icon: MapPin, title: 'Bharat-First Identity', desc: 'Not a generic system — an Indian system. Colors named after Indian nature and culture, typography chosen for civic trust, patterns designed for Indian government services.' },
   { icon: Smartphone, title: 'Mobile-Ready', desc: 'Most Indians access government services on their phones. Every component is responsive by default and optimized for touch interactions, including low-end devices.' },
@@ -67,7 +67,7 @@ export default function LandingPage() {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <div className="morni min-h-screen" style={{ backgroundColor: 'var(--color-background)' }}>
+    <div className="mor min-h-screen" style={{ backgroundColor: 'var(--color-background)' }}>
       {/* ═══ Navigation ═══ */}
       <header className="fixed top-0 left-0 right-0 z-50">
         <div
@@ -75,10 +75,10 @@ export default function LandingPage() {
           style={{ backdropFilter: 'blur(12px)', backgroundColor: 'rgba(2,41,38,0.88)' }}
         >
           <div className="flex items-center gap-2.5">
-            <MorniLogo size={30} />
+            <MorLogo size={30} />
             <div className="hidden sm:flex flex-col leading-none">
               <span className="font-bold text-sm tracking-tight" style={{ color: '#c8f0ea', fontFamily: 'var(--font-heading)' }}>
-                Morni
+                Mor
               </span>
               <span className="text-[10px] tracking-wide" style={{ color: '#4ecaba' }}>
                 India's Design System
@@ -105,7 +105,7 @@ export default function LandingPage() {
               aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}>
               {theme === 'light' ? <Moon size={16} /> : <Sun size={16} />}
             </button>
-            <a href="https://github.com/iyervish/morni-design-system" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/iyervish/mor-design-system" target="_blank" rel="noopener noreferrer"
               className="p-2 rounded-md transition-colors" style={{ color: '#4ecaba' }} aria-label="GitHub">
               <Github size={16} />
             </a>
@@ -254,7 +254,7 @@ export default function LandingPage() {
             style={{ color: 'var(--color-text-secondary)', fontFamily: 'var(--font-body)', lineHeight: 1.75 }}
           >
             Every government team deserves a solid starting point — accessible, well-crafted,
-            and production-ready. Morni gives them that foundation so they can focus on
+            and production-ready. Mor gives them that foundation so they can focus on
             serving citizens, not reinventing buttons.
           </p>
         </motion.div>
@@ -551,7 +551,7 @@ export default function LandingPage() {
         <div className="max-w-2xl mx-auto text-center relative">
           <h2 className="text-3xl md:text-4xl font-bold mb-4"
             style={{ fontFamily: 'var(--font-heading)', color: '#c8f0ea', letterSpacing: '-0.02em' }}>
-            Start building with Morni
+            Start building with Mor
           </h2>
           <p className="text-lg mb-8" style={{ color: '#4ecaba', lineHeight: 1.7 }}>
             Explore the component library, review the token architecture,
@@ -567,7 +567,7 @@ export default function LandingPage() {
               <ArrowRight size={18} />
             </Link>
             <a
-              href="https://github.com/iyervish/morni-design-system"
+              href="https://github.com/iyervish/mor-design-system"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-base font-semibold no-underline"
@@ -584,10 +584,10 @@ export default function LandingPage() {
       <footer className="py-12 px-6 lg:px-10 border-t" style={{ borderColor: 'var(--color-border)' }}>
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <MorniLogo size={22} />
+            <MorLogo size={22} />
             <div className="flex flex-col leading-none">
               <span className="text-xs font-semibold" style={{ color: 'var(--color-text-secondary)', fontFamily: 'var(--font-heading)' }}>
-                Morni
+                Mor
               </span>
               <span className="text-[9px]" style={{ color: 'var(--color-text-muted)' }}>
                 India's Design System

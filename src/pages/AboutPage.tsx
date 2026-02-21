@@ -2,10 +2,10 @@ import { Github, ExternalLink } from 'lucide-react';
 
 export default function AboutPage() {
   return (
-    <div className="morni-prose">
+    <div className="mor-prose">
       <h1>About</h1>
       <p className="text-lg" style={{ color: 'var(--color-text-secondary)' }}>
-        Morni is an open-source demonstration of what a world-class
+        Mor is an open-source demonstration of what a world-class
         government design system could look like for the Republic of India.
       </p>
 
@@ -16,7 +16,7 @@ export default function AboutPage() {
         accessibility problems that have already been solved elsewhere.
       </p>
       <p>
-        Morni gives every agency a high-quality starting point. Production-ready
+        Mor gives every agency a high-quality starting point. Production-ready
         components, thoughtful patterns, and full-page templates that are accessible,
         responsive, and well-crafted out of the box — so teams can focus on serving
         citizens instead of reinventing infrastructure.
@@ -75,7 +75,7 @@ export default function AboutPage() {
 
       <div className="flex gap-3 mt-6">
         <a
-          href="https://github.com/iyervish/morni-design-system"
+          href="https://github.com/iyervish/mor-design-system"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium no-underline border transition-colors"

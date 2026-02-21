@@ -9,7 +9,7 @@ const motionPrinciples = [
 
 export default function MotionPage() {
   return (
-    <div className="morni-prose">
+    <div className="mor-prose">
       <h1>Motion</h1>
       <p className="text-lg" style={{ color: 'var(--color-text-secondary)' }}>
         Motion design principles and patterns that bring interfaces to life while maintaining

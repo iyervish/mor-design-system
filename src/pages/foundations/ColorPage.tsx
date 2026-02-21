@@ -27,7 +27,7 @@ export default function ColorPage() {
   return (
     <>
       <TableOfContents items={tocItems} />
-      <div className="morni-prose">
+      <div className="mor-prose">
         <h1>Color System</h1>
         <p className="text-lg" style={{ color: 'var(--color-text-secondary)' }}>
           A 3-layer token architecture inspired by Indian nature and mythology. System tokens provide
@@ -36,7 +36,7 @@ export default function ColorPage() {
 
         <h2 id="color-roles">Color Roles</h2>
         <p>
-          Each Morni color family has a clear, non-overlapping role. Use this guide to choose the right color for any context.
+          Each Mor color family has a clear, non-overlapping role. Use this guide to choose the right color for any context.
         </p>
 
         <div

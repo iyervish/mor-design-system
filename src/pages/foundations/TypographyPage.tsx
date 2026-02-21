@@ -19,7 +19,7 @@ export default function TypographyPage() {
   return (
     <>
       <TableOfContents items={tocItems} />
-      <div className="morni-prose">
+      <div className="mor-prose">
         <h1>Typography</h1>
         <p className="text-lg" style={{ color: 'var(--color-text-secondary)' }}>
           A purposeful type system built for government readability.

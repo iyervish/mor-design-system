@@ -1,8 +1,8 @@
 {
-  "name": "morni-design-system",
+  "name": "mor-design-system",
   "version": "1.0.0",
   "private": false,
-  "description": "Morni Design System — India's accessible design system for civic services",
+  "description": "Mor Design System — India's accessible design system for civic services",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iyervish/morni-design-system.git"
+    "url": "https://github.com/iyervish/mor-design-system.git"
   },
   "keywords": [
     "design-system",

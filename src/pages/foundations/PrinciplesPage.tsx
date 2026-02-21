@@ -4,7 +4,7 @@ const principles = [
   {
     icon: Eye,
     title: 'High-Quality by Default',
-    description: 'Government teams shouldn\'t have to start from scratch. Morni provides production-ready components, patterns, and templates so every team begins with a solid, well-crafted foundation.',
+    description: 'Government teams shouldn\'t have to start from scratch. Mor provides production-ready components, patterns, and templates so every team begins with a solid, well-crafted foundation.',
   },
   {
     icon: Users,
@@ -35,10 +35,10 @@ const principles = [
 
 export default function PrinciplesPage() {
   return (
-    <div className="morni-prose">
+    <div className="mor-prose">
       <h1>Design Principles</h1>
       <p className="text-lg" style={{ color: 'var(--color-text-secondary)' }}>
-        These principles guide every decision in the Morni design system — from color choices
+        These principles guide every decision in the Mor design system — from color choices
         to component behavior to documentation style.
       </p>
 

@@ -93,7 +93,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
 
       <aside
         className={`
-          fixed top-0 left-0 z-40 h-full overflow-y-auto morni-scrollbar
+          fixed top-0 left-0 z-40 h-full overflow-y-auto mor-scrollbar
           transition-transform duration-200 ease-out
           lg:translate-x-0 lg:z-30
           ${open ? 'translate-x-0' : '-translate-x-full'}

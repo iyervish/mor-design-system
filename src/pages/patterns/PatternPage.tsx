@@ -24,7 +24,7 @@ export default function PatternPage() {
 
   if (!meta || !registry) {
     return (
-      <div className="morni-prose">
+      <div className="mor-prose">
         <h1>Pattern Not Found</h1>
         <p style={{ color: 'var(--color-text-secondary)' }}>
           The pattern "{slug}" doesn't exist yet or hasn't been documented.
@@ -44,7 +44,7 @@ export default function PatternPage() {
   return (
     <>
       <TableOfContents items={tocItems} />
-      <div className="morni-prose">
+      <div className="mor-prose">
         {/* Header */}
         <div className="mb-2">
           <Link
@@ -96,7 +96,7 @@ export default function PatternPage() {
         {/* Components Used */}
         <h2 id="components-used">Components Used</h2>
         <p className="text-sm" style={{ color: 'var(--color-text-secondary)' }}>
-          This pattern combines the following Morni components:
+          This pattern combines the following Mor components:
         </p>
         <div className="flex flex-wrap gap-2 mt-3">
           {meta.componentsUsed.map(slug => (

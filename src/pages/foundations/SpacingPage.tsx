@@ -12,7 +12,7 @@ export default function SpacingPage() {
   return (
     <>
       <TableOfContents items={tocItems} />
-      <div className="morni-prose">
+      <div className="mor-prose">
         <h1>Spacing</h1>
         <p className="text-lg" style={{ color: 'var(--color-text-secondary)' }}>
           An 8px base grid system ensures consistent rhythm and alignment across all components.

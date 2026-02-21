@@ -17,7 +17,7 @@ export default function TableOfContents({ items }: TableOfContentsProps) {
 
   return (
     <nav
-      className="hidden xl:block fixed right-0 top-0 overflow-y-auto morni-scrollbar"
+      className="hidden xl:block fixed right-0 top-0 overflow-y-auto mor-scrollbar"
       style={{
         width: 'var(--toc-width)',
         paddingTop: 'calc(var(--topbar-height) + 2rem)',

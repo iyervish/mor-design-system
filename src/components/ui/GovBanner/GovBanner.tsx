@@ -4,7 +4,7 @@ import { cn } from '../../../utils/cn';
 
 export interface GovBannerProps extends React.HTMLAttributes<HTMLDivElement> {
   /** Language variant */
-  language?: 'en' | 'es';
+  language?: 'en' | 'hi';
 }
 
 const content = {
@@ -18,15 +18,15 @@ const content = {
     secureDesc:
       'A lock icon or https:// means you\'ve safely connected to an official website. Share sensitive information only on official, secure websites.',
   },
-  es: {
-    banner: 'An official website of the Government of India',
-    toggle: "Here's how you know",
-    officialTitle: 'Official websites use .gov.in',
+  hi: {
+    banner: 'भारत सरकार की एक आधिकारिक वेबसाइट',
+    toggle: 'यहाँ जानें',
+    officialTitle: 'आधिकारिक वेबसाइटें .gov.in का उपयोग करती हैं',
     officialDesc:
-      'A .gov.in website belongs to an official government organization of the Republic of India.',
-    secureTitle: 'Secure .gov.in websites use HTTPS',
+      '.gov.in वेबसाइट भारत गणराज्य की आधिकारिक सरकारी संस्था से संबंधित है।',
+    secureTitle: 'सुरक्षित .gov.in वेबसाइटें HTTPS का उपयोग करती हैं',
     secureDesc:
-      'A lock icon or https:// means you\'ve safely connected to an official website.',
+      'लॉक आइकन या https:// का अर्थ है कि आप सुरक्षित रूप से एक आधिकारिक वेबसाइट से जुड़े हैं। संवेदनशील जानकारी केवल आधिकारिक, सुरक्षित वेबसाइटों पर साझा करें।',
   },
 };
 
@@ -80,7 +80,7 @@ const GovBanner = React.forwardRef<HTMLDivElement, GovBannerProps>(
           <div
             id={panelId}
             role="region"
-            aria-label={language === 'en' ? 'Official government website information' : 'Información del sitio web gubernamental oficial'}
+            aria-label={language === 'en' ? 'Official government website information' : 'आधिकारिक सरकारी वेबसाइट की जानकारी'}
             className="overflow-hidden transition-all duration-200"
             style={{
               maxHeight: expanded ? '400px' : '0',

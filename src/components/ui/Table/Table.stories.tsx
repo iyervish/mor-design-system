@@ -6,11 +6,11 @@ import type { PropDef } from '../../docs/PropsTable';
 /* ------------------------------------------------------------------ */
 
 const sampleData = [
-  { id: 'APP-001', name: 'Business License Renewal', status: 'Approved', date: '2024-12-01' },
-  { id: 'APP-002', name: 'Building Permit', status: 'Pending', date: '2024-12-05' },
-  { id: 'APP-003', name: 'Food Service Permit', status: 'Denied', date: '2024-12-08' },
+  { id: 'APP-001', name: 'Driving Licence Renewal', status: 'Approved', date: '2024-12-01' },
+  { id: 'APP-002', name: 'Building Plan Sanction', status: 'Pending', date: '2024-12-05' },
+  { id: 'APP-003', name: 'Trade Licence', status: 'Denied', date: '2024-12-08' },
   { id: 'APP-004', name: 'Vehicle Registration', status: 'Approved', date: '2024-12-10' },
-  { id: 'APP-005', name: 'Professional License', status: 'Pending', date: '2024-12-12' },
+  { id: 'APP-005', name: 'Caste Certificate', status: 'Pending', date: '2024-12-12' },
 ];
 
 /* ------------------------------------------------------------------ */

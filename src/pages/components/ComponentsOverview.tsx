@@ -5,10 +5,10 @@ export default function ComponentsOverview() {
   const categories = [...new Set(components.map(c => c.category))];
 
   return (
-    <div className="morni-prose">
+    <div className="mor-prose">
       <h1>Components</h1>
       <p className="text-lg" style={{ color: 'var(--color-text-secondary)' }}>
-        {components.length} production-ready components built for Virginia government services.
+        {components.length} production-ready components built for India's government services.
         Every component is accessible, responsive, and supports dark mode.
       </p>
 

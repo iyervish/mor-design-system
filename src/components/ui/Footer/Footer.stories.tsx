@@ -36,7 +36,7 @@ export const propDefinitions: PropDef[] = [
 
 export const codeSnippets = {
   default: `<Footer
-  siteName="Virginia DMV"
+  siteName="Parivahan Sewa"
   linkGroups={[
     {
       title: 'Services',
@@ -58,7 +58,7 @@ export const codeSnippets = {
 />`,
   slim: `<Footer
   variant="slim"
-  siteName="Virginia.gov"
+  siteName="India.gov.in"
   linkGroups={[{
     title: 'Links',
     links: [

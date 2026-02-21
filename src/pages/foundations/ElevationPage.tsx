@@ -12,7 +12,7 @@ export default function ElevationPage() {
   return (
     <>
       <TableOfContents items={tocItems} />
-      <div className="morni-prose">
+      <div className="mor-prose">
         <h1>Elevation</h1>
         <p className="text-lg" style={{ color: 'var(--color-text-secondary)' }}>
           A 5-level shadow system that communicates visual hierarchy and interaction states.

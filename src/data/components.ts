@@ -22,7 +22,7 @@ export const components: ComponentMeta[] = [
   { name: 'Accordion', slug: 'accordion', description: 'Expandable sections for organizing content under collapsible headers.', category: 'Layout', tier: 1, status: 'stable' },
   { name: 'Banner', slug: 'banner', description: 'Full-width notification banner for site-level messages and announcements.', category: 'Feedback', tier: 2, status: 'stable' },
   { name: 'Footer', slug: 'footer', description: 'Government site footer with link groups, logo, and attribution.', category: 'Layout', tier: 2, status: 'stable' },
-  { name: 'GovBanner', slug: 'gov-banner', description: 'Official government website identifier banner for the Commonwealth of Virginia.', category: 'Navigation', tier: 2, status: 'stable' },
+  { name: 'GovBanner', slug: 'gov-banner', description: 'Official government website identifier banner for the Government of India.', category: 'Navigation', tier: 2, status: 'stable' },
   { name: 'Modal', slug: 'modal', description: 'Dialog overlay with focus trap for confirmations, forms, and detailed content.', category: 'Feedback', tier: 2, status: 'stable' },
   { name: 'Pagination', slug: 'pagination', description: 'Navigate between pages of content with page numbers and controls.', category: 'Navigation', tier: 2, status: 'stable' },
   { name: 'Search', slug: 'search', description: 'Search input with icon, clear button, and optional submit action.', category: 'Form', tier: 2, status: 'stable' },

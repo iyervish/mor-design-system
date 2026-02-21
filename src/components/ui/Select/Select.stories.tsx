@@ -2,11 +2,11 @@ import Select from './Select';
 import type { PropDef } from '../../docs/PropsTable';
 
 const stateOptions = [
-  { value: 'va', label: 'Virginia' },
-  { value: 'md', label: 'Maryland' },
-  { value: 'dc', label: 'District of Columbia' },
-  { value: 'nc', label: 'North Carolina' },
-  { value: 'wv', label: 'West Virginia' },
+  { value: 'mh', label: 'Maharashtra' },
+  { value: 'tn', label: 'Tamil Nadu' },
+  { value: 'ka', label: 'Karnataka' },
+  { value: 'up', label: 'Uttar Pradesh' },
+  { value: 'dl', label: 'Delhi' },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -144,8 +144,8 @@ export const propDefinitions: PropDef[] = [
 export const basicUsage = `<Select
   label="State"
   options={[
-    { value: 'va', label: 'Virginia' },
-    { value: 'md', label: 'Maryland' },
+    { value: 'mh', label: 'Maharashtra' },
+    { value: 'tn', label: 'Tamil Nadu' },
   ]}
   placeholder="Select a state"
 />`;

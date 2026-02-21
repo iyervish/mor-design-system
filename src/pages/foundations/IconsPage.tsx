@@ -2,17 +2,17 @@ import { Palette, Zap, Layers, Shapes } from 'lucide-react';
 
 const iconCategories = [
   { title: 'System Icons', icon: Zap, description: 'Core icon set for common UI actions and states.' },
-  { title: 'Brand Icons', icon: Shapes, description: 'Virginia state symbols and agency-specific icons.' },
+  { title: 'Brand Icons', icon: Shapes, description: 'Indian national symbols and agency-specific icons.' },
   { title: 'Interface Icons', icon: Layers, description: 'Navigation, status, and content type indicators.' },
   { title: 'Custom Icons', icon: Palette, description: 'Guidelines for creating and integrating custom icons.' },
 ];
 
 export default function IconsPage() {
   return (
-    <div className="morni-prose">
+    <div className="mor-prose">
       <h1>Icons</h1>
       <p className="text-lg" style={{ color: 'var(--color-text-secondary)' }}>
-        A comprehensive icon system for consistent visual communication across Virginia government services.
+        A comprehensive icon system for consistent visual communication across India's government services.
         Icons help users quickly understand actions, status, and content types.
       </p>
 
