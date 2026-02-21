@@ -1,16 +1,16 @@
-# Dogwood Design System
+# Mor Design System
 
-A design system for the Commonwealth — consistent, accessible, and beautifully crafted components for Virginia's state agencies.
+An accessibility-first design system for India's civic digital services — consistent, trustworthy, and beautifully crafted components for government agencies and public institutions.
 
 ## Overview
 
-Dogwood is an open-source design system inspired by USWDS and rooted in Virginia's geography and identity. It provides a unified design language across 80+ state agencies, ensuring citizens have a consistent, trustworthy digital experience.
+Mor is an open-source design system built for India's digital governance ecosystem. Inspired by systems like USWDS and rooted in India's cultural identity, it provides a unified design language across government services, ensuring citizens have a consistent and accessible digital experience.
 
 ## Features
 
-- **30+ Production-Ready Components** — Built with React, TypeScript, and accessibility in mind
-- **Virginia-Inspired Design Tokens** — Color system based on Virginia geography (Blue Ridge, Chesapeake, Piedmont, Shenandoah, Cardinal, Dogwood)
-- **3-Layer Token Architecture** — System → Theme → Component for maximum flexibility
+- **22 Production-Ready Components** — Built with React, TypeScript, and accessibility in mind
+- **India-Inspired Design Tokens** — Color system drawn from Indian nature and mythology (Firoza, Mayura, Mitti, Sona, Vana, Laal, Dhumra)
+- **3-Layer Token Architecture** — Primitives → Semantic → Component for maximum flexibility
 - **WCAG 2.1 AA Compliant** — Accessible by default with keyboard navigation and screen reader support
 - **Dark Mode Ready** — Full light/dark theme support
 - **Mobile-First** — Responsive components designed for all devices
@@ -57,14 +57,13 @@ src/
 ├── data/              # Component metadata and navigation
 ├── styles/            # Global styles and CSS tokens
 └── utils/             # Utility functions
-
 ```
 
 ## Design Principles
 
 1. **Accessible First** — WCAG 2.1 AA is the floor. Every citizen, every ability.
-2. **Consistent** — One system across all agencies. Citizens learn once, use everywhere.
-3. **Virginia Identity** — Colors from our geography. Fonts chosen for government trust.
+2. **Consistent** — One system across all services. Citizens learn once, use everywhere.
+3. **Indian Identity** — Colors drawn from nature and mythology. Typography chosen for government trust.
 4. **Mobile-Ready** — Responsive by default. Most citizens access services on their phones.
 
 ## Component Library
@@ -72,25 +71,25 @@ src/
 - **Form Components**: Button, Input, Select, Checkbox, Radio, TextArea
 - **Feedback Components**: Alert, Badge
 - **Layout Components**: Card, Table, Breadcrumb, Accordion
-- **More Coming Soon**: Header, Footer, Modal, Tabs, Pagination, and more
+- **Navigation**: Header, Footer, Tabs, Pagination, and more
 
 ## Design Tokens
 
 ### Color System
 
-- **Blue Ridge** — Deep navy, primary brand
-- **Chesapeake** — Teal, informational & interactive
-- **Piedmont** — Warm brown, earthy neutral
-- **Dogwood** — Gold, accent & attention (Virginia state flower)
-- **Shenandoah** — Forest green, success
-- **Cardinal** — Red, error & danger
-- **Slate** — Neutral grays
+- **Firoza** — Teal, primary brand and interactive
+- **Mayura** — Cobalt, informational (inspired by the peacock)
+- **Mitti** — Terracotta, earthy warm neutral
+- **Sona** — Gold, accent and attention
+- **Vana** — Forest green, success
+- **Laal** — Red, error and danger
+- **Dhumra** — Neutral grays
 
 ### Typography
 
-- **Merriweather** — Serif heading font
-- **Source Sans 3** — Sans-serif body font
-- **JetBrains Mono** — Monospace code font
+- **Heading font** — Chosen for authority and legibility
+- **Body font** — Sans-serif, optimized for screen reading
+- **Mono font** — For code and technical content
 
 ### Spacing
 
@@ -100,15 +99,6 @@ src/
 
 MIT License — see [LICENSE](LICENSE) file for details.
 
-## Attribution
-
-Built by [Studio Pimmit](https://studiopimmit.com). Not affiliated with the Commonwealth of Virginia.
-
 ## Contributing
 
-This is an open-source demonstration project. Contributions, issues, and feature requests are welcome!
-
-## Links
-
-- [Documentation Site](https://dogwood.studiopimmit.com) (coming soon)
-- [GitHub Repository](https://github.com/iyervish/dogwood-design-system)
+This is an open-source project. Contributions, issues, and feature requests are welcome!
