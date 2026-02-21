@@ -58,7 +58,7 @@ export default function PrinciplesPage() {
                 <span
                   className="text-xs font-bold"
                   style={{
-                    color: 'var(--surya-500)',
+                    color: 'var(--sona-500)',
                     fontFamily: 'var(--font-mono)',
                   }}
                 >
@@ -67,8 +67,8 @@ export default function PrinciplesPage() {
                 <div
                   className="w-11 h-11 rounded-lg flex items-center justify-center"
                   style={{
-                    backgroundColor: 'var(--surya-100)',
-                    color: 'var(--surya-700)',
+                    backgroundColor: 'var(--sona-100)',
+                    color: 'var(--sona-700)',
                   }}
                 >
                   <Icon size={22} />

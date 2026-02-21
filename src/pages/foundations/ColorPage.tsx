@@ -11,12 +11,12 @@ const tocItems = [
 ];
 
 const themeTokenRows = [
-  { token: '--color-primary', value: 'neelkanth-600 / neelkanth-300' },
+  { token: '--color-primary', value: 'firoza-600 / firoza-300' },
   { token: '--color-info (alias: --color-secondary)', value: 'mayura-600 / mayura-300' },
-  { token: '--color-accent', value: 'surya-500 / surya-400' },
-  { token: '--color-warning', value: 'surya-600 / surya-400' },
+  { token: '--color-accent', value: 'sona-500 / sona-400' },
+  { token: '--color-warning', value: 'sona-600 / sona-400' },
   { token: '--color-success', value: 'vana-500 / vana-400' },
-  { token: '--color-error', value: 'sindoor-500 / sindoor-400' },
+  { token: '--color-error', value: 'laal-500 / laal-400' },
   { token: '--color-warm', value: 'mitti-500 / mitti-400' },
   { token: '--color-surface', value: '#ffffff / dhumra-800' },
   { token: '--color-text', value: 'dhumra-900 / dhumra-50' },
@@ -53,11 +53,11 @@ export default function ColorPage() {
             </thead>
             <tbody>
               {[
-                { swatch: 'var(--neelkanth-600)', family: 'Neelkanth (teal)', role: 'Primary', usage: 'Brand identity, primary buttons, links, focus rings, navigation.' },
-                { swatch: 'var(--surya-500)', family: 'Surya (gold)', role: 'Accent & Warning', usage: 'Highlights, active states, hover accents, badges, decorative warmth. Also warning alerts and caution states.' },
+                { swatch: 'var(--firoza-600)', family: 'Firoza (teal)', role: 'Primary', usage: 'Brand identity, primary buttons, links, focus rings, navigation.' },
+                { swatch: 'var(--sona-500)', family: 'Sona (gold)', role: 'Accent & Warning', usage: 'Highlights, active states, hover accents, badges, decorative warmth. Also warning alerts and caution states.' },
                 { swatch: 'var(--mayura-600)', family: 'Mayura (cobalt)', role: 'Info / Interactive', usage: 'Informational alerts, secondary actions, data visualization, links in dark contexts.' },
                 { swatch: 'var(--vana-500)', family: 'Vana (green)', role: 'Success', usage: 'Success states, confirmations, positive indicators, checkmarks.' },
-                { swatch: 'var(--sindoor-500)', family: 'Sindoor (red)', role: 'Error / Destructive', usage: 'Error states, validation, destructive actions, required markers.' },
+                { swatch: 'var(--laal-500)', family: 'Laal (red)', role: 'Error / Destructive', usage: 'Error states, validation, destructive actions, required markers.' },
                 { swatch: 'var(--mitti-500)', family: 'Mitti (terracotta)', role: 'Warm Neutral', usage: 'Earthy backgrounds, warm cards, blockquotes, sidebar accents, category tags.' },
                 { swatch: 'var(--dhumra-500)', family: 'Dhumra (warm gray)', role: 'Neutral', usage: 'Text, borders, surfaces, backgrounds. The structural foundation.' },
               ].map((row, i) => (
@@ -95,8 +95,8 @@ export default function ColorPage() {
               <span
                 className="text-xs px-2 py-0.5 rounded-full"
                 style={{
-                  backgroundColor: 'var(--surya-100)',
-                  color: 'var(--surya-700)',
+                  backgroundColor: 'var(--sona-100)',
+                  color: 'var(--sona-700)',
                   fontFamily: 'var(--font-mono)',
                 }}
               >
@@ -158,7 +158,7 @@ export default function ColorPage() {
               Avoid raw system tokens in component styles
             </h4>
             <p className="text-sm" style={{ color: 'var(--color-text-secondary)' }}>
-              Don't use <code style={{ fontFamily: 'var(--font-mono)' }}>var(--neelkanth-600)</code> directly
+              Don't use <code style={{ fontFamily: 'var(--font-mono)' }}>var(--firoza-600)</code> directly
               in components. System tokens are for building themes, not for direct use.
             </p>
           </div>

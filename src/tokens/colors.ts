@@ -19,10 +19,10 @@ export interface ColorFamily {
   scale: ColorScale;
 }
 
-export const neelkanth: ColorFamily = {
-  name: 'Neelkanth',
+export const firoza: ColorFamily = {
+  name: 'Firoza',
   description: 'Iridescent blue-green — primary brand',
-  inspiration: "Named after the peacock's mythological blue-throat epithet",
+  inspiration: 'Urdu/Persian for turquoise; the colour of Mughal tilework and Indian lakes',
   scale: {
     50: '#f0fbf9',
     100: '#c8f0ea',
@@ -76,10 +76,10 @@ export const vana: ColorFamily = {
   },
 };
 
-export const surya: ColorFamily = {
-  name: 'Surya',
+export const sona: ColorFamily = {
+  name: 'Sona',
   description: 'Gold-brass — accent & attention',
-  inspiration: 'Named for the sun god; echoes the golden eye-spots of peacock feathers',
+  inspiration: 'Hindi/Urdu for gold; the warm brass of Indian jewellery and harvest fields',
   scale: {
     50: '#fffbeb',
     100: '#fef3c7',
@@ -95,10 +95,10 @@ export const surya: ColorFamily = {
   },
 };
 
-export const sindoor: ColorFamily = {
-  name: 'Sindoor',
+export const laal: ColorFamily = {
+  name: 'Laal',
   description: 'Vermilion red — error and emphasis',
-  inspiration: 'Named after the sacred vermilion pigment used in Indian ceremonies',
+  inspiration: 'Hindi/Urdu for red; the vivid red of chilli peppers and Indian textiles',
   scale: {
     50: '#fff1f0',
     100: '#ffe0de',
@@ -153,11 +153,11 @@ export const dhumra: ColorFamily = {
 };
 
 export const colorFamilies: ColorFamily[] = [
-  neelkanth,
+  firoza,
   mayura,
-  surya,
+  sona,
   mitti,
   vana,
-  sindoor,
+  laal,
   dhumra,
 ];

@@ -7,16 +7,16 @@ const foundations = [
     description: 'The core design principles that guide every decision in the Morni design system.',
     icon: Sparkles,
     href: '/foundations/principles',
-    accent: 'var(--surya-100)',
-    accentIcon: 'var(--surya-600)',
+    accent: 'var(--sona-100)',
+    accentIcon: 'var(--sona-600)',
   },
   {
     title: 'Color',
     description: 'Peacock-inspired color system with a 3-layer token architecture.',
     icon: Palette,
     href: '/foundations/color',
-    accent: 'var(--neelkanth-100)',
-    accentIcon: 'var(--neelkanth-600)',
+    accent: 'var(--firoza-100)',
+    accentIcon: 'var(--firoza-600)',
   },
   {
     title: 'Typography',
@@ -39,8 +39,8 @@ const foundations = [
     description: '5-level shadow system with live examples.',
     icon: Layers,
     href: '/foundations/elevation',
-    accent: 'var(--sindoor-100)',
-    accentIcon: 'var(--sindoor-500)',
+    accent: 'var(--laal-100)',
+    accentIcon: 'var(--laal-500)',
   },
   {
     title: 'Motion',
@@ -74,7 +74,7 @@ export default function FoundationsOverview() {
                 backgroundColor: 'var(--color-surface)',
               }}
               onMouseEnter={e => {
-                (e.currentTarget as HTMLElement).style.borderColor = 'var(--surya-300)';
+                (e.currentTarget as HTMLElement).style.borderColor = 'var(--sona-300)';
                 (e.currentTarget as HTMLElement).style.boxShadow = '0 4px 12px rgba(212,168,50,0.08)';
               }}
               onMouseLeave={e => {

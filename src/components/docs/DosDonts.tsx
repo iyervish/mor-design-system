@@ -50,11 +50,11 @@ export default function DosDonts({ dos, donts }: DosDontsProps) {
         <div className="flex items-center gap-2 mb-3">
           <div
             className="w-6 h-6 rounded-full flex items-center justify-center"
-            style={{ backgroundColor: 'var(--sindoor-500)' }}
+            style={{ backgroundColor: 'var(--laal-500)' }}
           >
             <X size={14} color="white" />
           </div>
-          <span className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--sindoor-600)' }}>
+          <span className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--laal-600)' }}>
             Don't
           </span>
         </div>

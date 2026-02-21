@@ -50,8 +50,8 @@ export default function TemplatesOverview() {
                     <div
                       className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0"
                       style={{
-                        backgroundColor: isBuilt ? 'var(--neelkanth-100)' : 'var(--surya-100)',
-                        color: isBuilt ? 'var(--neelkanth-600)' : 'var(--surya-600)',
+                        backgroundColor: isBuilt ? 'var(--firoza-100)' : 'var(--sona-100)',
+                        color: isBuilt ? 'var(--firoza-600)' : 'var(--sona-600)',
                       }}
                     >
                       <Icon size={18} />
@@ -74,7 +74,7 @@ export default function TemplatesOverview() {
                         style={
                           isBuilt
                             ? { backgroundColor: 'var(--vana-100)', color: 'var(--vana-700)' }
-                            : { backgroundColor: 'var(--surya-100)', color: 'var(--surya-700)' }
+                            : { backgroundColor: 'var(--sona-100)', color: 'var(--sona-700)' }
                         }
                       >
                         {isBuilt ? 'Live demo' : 'Coming soon'}

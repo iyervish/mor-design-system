@@ -31,14 +31,14 @@
     border-radius: var(--radius-sm);
   }
 
-  /* Selection color — surya gold */
+  /* Selection color — sona gold */
   .morni ::selection {
-    background-color: var(--surya-200);
-    color: var(--neelkanth-950);
+    background-color: var(--sona-200);
+    color: var(--firoza-950);
   }
   .dark .morni ::selection {
-    background-color: var(--surya-700);
-    color: var(--surya-50);
+    background-color: var(--sona-700);
+    color: var(--sona-50);
   }
 }
 
@@ -86,7 +86,7 @@
   display: block;
   width: 48px;
   height: 3px;
-  background: linear-gradient(90deg, var(--surya-500), var(--surya-300));
+  background: linear-gradient(90deg, var(--sona-500), var(--sona-300));
   border-radius: 2px;
   margin-top: var(--space-4);
   margin-bottom: var(--space-6);
@@ -120,13 +120,13 @@
   color: var(--color-primary);
   text-decoration: underline;
   text-underline-offset: 3px;
-  text-decoration-color: var(--surya-300);
+  text-decoration-color: var(--sona-300);
   transition: text-decoration-color 200ms;
 }
 
 .morni-prose a:hover {
   color: var(--color-primary-hover);
-  text-decoration-color: var(--surya-500);
+  text-decoration-color: var(--sona-500);
 }
 
 /* ===== Animations ===== */

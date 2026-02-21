@@ -46,8 +46,8 @@ export default function TypographyPage() {
                 <span
                   className="text-[10px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider"
                   style={{
-                    backgroundColor: 'var(--surya-100)',
-                    color: 'var(--surya-700)',
+                    backgroundColor: 'var(--sona-100)',
+                    color: 'var(--sona-700)',
                   }}
                 >
                   {font.category}
@@ -79,8 +79,8 @@ export default function TypographyPage() {
                     key={w}
                     className="text-[10px] px-2 py-0.5 rounded-full"
                     style={{
-                      backgroundColor: 'var(--neelkanth-100)',
-                      color: 'var(--neelkanth-700)',
+                      backgroundColor: 'var(--firoza-100)',
+                      color: 'var(--firoza-700)',
                       fontFamily: 'var(--font-mono)',
                     }}
                   >

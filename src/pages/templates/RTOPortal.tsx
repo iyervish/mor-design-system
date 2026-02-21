@@ -62,20 +62,20 @@ export default function RTOPortal() {
       <GovBanner />
 
       {/* Header */}
-      <header style={{ backgroundColor: 'var(--neelkanth-950)', borderBottom: '3px solid var(--surya-400)' }}>
+      <header style={{ backgroundColor: 'var(--firoza-950)', borderBottom: '3px solid var(--sona-400)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center gap-4">
-            <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ backgroundColor: 'var(--neelkanth-800)' }}>
-              <Car size={24} style={{ color: 'var(--surya-400)' }} />
+            <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ backgroundColor: 'var(--firoza-800)' }}>
+              <Car size={24} style={{ color: 'var(--sona-400)' }} />
             </div>
             <div>
-              <div className="text-xs font-medium tracking-wide" style={{ color: 'var(--neelkanth-300)' }}>
+              <div className="text-xs font-medium tracking-wide" style={{ color: 'var(--firoza-300)' }}>
                 Ministry of Road Transport & Highways
               </div>
               <h1 className="text-xl font-bold" style={{ color: '#ffffff', fontFamily: 'var(--font-heading)' }}>
                 Parivahan Sewa
               </h1>
-              <div className="text-xs" style={{ color: 'var(--neelkanth-300)' }}>
+              <div className="text-xs" style={{ color: 'var(--firoza-300)' }}>
                 parivahan.gov.in — Vahan 4.0
               </div>
             </div>
@@ -113,12 +113,12 @@ export default function RTOPortal() {
                       className="flex items-center justify-between px-4 py-3 border-b cursor-pointer transition-colors"
                       style={{
                         borderColor: 'var(--color-border)',
-                        backgroundColor: cat.active ? 'var(--neelkanth-50)' : 'transparent',
-                        borderLeft: cat.active ? '3px solid var(--neelkanth-600)' : '3px solid transparent',
+                        backgroundColor: cat.active ? 'var(--firoza-50)' : 'transparent',
+                        borderLeft: cat.active ? '3px solid var(--firoza-600)' : '3px solid transparent',
                       }}
                     >
                       <span className="text-sm font-medium"
-                        style={{ color: cat.active ? 'var(--neelkanth-700)' : 'var(--color-text)' }}>
+                        style={{ color: cat.active ? 'var(--firoza-700)' : 'var(--color-text)' }}>
                         {cat.label}
                       </span>
                       <div className="flex items-center gap-1">
@@ -217,7 +217,7 @@ export default function RTOPortal() {
                       style={{ borderColor: 'var(--color-border)' }}>
                       {item.required
                         ? <CheckCircle2 size={16} className="flex-shrink-0 mt-0.5" style={{ color: 'var(--vana-600)' }} />
-                        : <AlertCircle size={16} className="flex-shrink-0 mt-0.5" style={{ color: 'var(--surya-500)' }} />
+                        : <AlertCircle size={16} className="flex-shrink-0 mt-0.5" style={{ color: 'var(--sona-500)' }} />
                       }
                       <div className="flex-1">
                         <div className="text-sm font-medium" style={{ color: 'var(--color-text)' }}>{item.doc}</div>
@@ -229,7 +229,7 @@ export default function RTOPortal() {
                     </div>
                   ))}
                 </div>
-                <div className="mt-4 p-3 rounded-lg text-xs" style={{ backgroundColor: 'var(--neelkanth-50)', color: 'var(--neelkanth-700)' }}>
+                <div className="mt-4 p-3 rounded-lg text-xs" style={{ backgroundColor: 'var(--firoza-50)', color: 'var(--firoza-700)' }}>
                   <strong>Note:</strong> Aadhaar-linked applications are processed faster. Link your Aadhaar to your VAHAN profile for instant verification.
                 </div>
               </CardContent>

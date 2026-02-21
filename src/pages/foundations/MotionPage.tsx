@@ -48,7 +48,7 @@ export default function MotionPage() {
                   </p>
                   <span
                     className="inline-block text-[10px] mt-2 px-2 py-0.5 rounded-full font-medium uppercase tracking-wider"
-                    style={{ backgroundColor: 'var(--surya-100)', color: 'var(--surya-700)' }}
+                    style={{ backgroundColor: 'var(--sona-100)', color: 'var(--sona-700)' }}
                   >
                     Coming soon
                   </span>

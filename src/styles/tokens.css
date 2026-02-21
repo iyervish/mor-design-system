@@ -2,25 +2,25 @@
  * Morni — Design Tokens
  * 3-layer architecture: System → Theme → Component
  *
- * System tokens are named after Indian nature and mythology.
+ * System tokens are named after Indian nature and culture.
  * Theme tokens map system tokens to semantic roles.
  */
 
 :root {
   /* ===== SYSTEM TOKENS (Primitives) ===== */
 
-  /* Neelkanth — Iridescent blue-green, primary brand */
-  --neelkanth-50: #f0fbf9;
-  --neelkanth-100: #c8f0ea;
-  --neelkanth-200: #91e0d5;
-  --neelkanth-300: #4ecaba;
-  --neelkanth-400: #1fb3a2;
-  --neelkanth-500: #0d9488;
-  --neelkanth-600: #0a7a70;
-  --neelkanth-700: #08615a;
-  --neelkanth-800: #064b46;
-  --neelkanth-900: #043a36;
-  --neelkanth-950: #022926;
+  /* Firoza — Iridescent blue-green, primary brand */
+  --firoza-50: #f0fbf9;
+  --firoza-100: #c8f0ea;
+  --firoza-200: #91e0d5;
+  --firoza-300: #4ecaba;
+  --firoza-400: #1fb3a2;
+  --firoza-500: #0d9488;
+  --firoza-600: #0a7a70;
+  --firoza-700: #08615a;
+  --firoza-800: #064b46;
+  --firoza-900: #043a36;
+  --firoza-950: #022926;
 
   /* Mayura — Deep cobalt, informational & interactive */
   --mayura-50: #eef2ff;
@@ -48,18 +48,18 @@
   --mitti-900: #5e2c15;
   --mitti-950: #321608;
 
-  /* Surya — Gold-brass, accent & attention */
-  --surya-50: #fffbeb;
-  --surya-100: #fef3c7;
-  --surya-200: #fde68a;
-  --surya-300: #fcc94a;
-  --surya-400: #f6a800;
-  --surya-500: #e09200;
-  --surya-600: #c27a00;
-  --surya-700: #a36200;
-  --surya-800: #84500a;
-  --surya-900: #6b400c;
-  --surya-950: #3d2405;
+  /* Sona — Gold-brass, accent & attention */
+  --sona-50: #fffbeb;
+  --sona-100: #fef3c7;
+  --sona-200: #fde68a;
+  --sona-300: #fcc94a;
+  --sona-400: #f6a800;
+  --sona-500: #e09200;
+  --sona-600: #c27a00;
+  --sona-700: #a36200;
+  --sona-800: #84500a;
+  --sona-900: #6b400c;
+  --sona-950: #3d2405;
 
   /* Vana — Forest green, success */
   --vana-50: #f0faf3;
@@ -74,18 +74,18 @@
   --vana-900: #113b1c;
   --vana-950: #0b2912;
 
-  /* Sindoor — Vermilion red, error/emphasis */
-  --sindoor-50: #fff1f0;
-  --sindoor-100: #ffe0de;
-  --sindoor-200: #ffc2bf;
-  --sindoor-300: #ff958f;
-  --sindoor-400: #ff5c53;
-  --sindoor-500: #e83428;
-  --sindoor-600: #cc2217;
-  --sindoor-700: #a91c12;
-  --sindoor-800: #8b1a13;
-  --sindoor-900: #741a15;
-  --sindoor-950: #400907;
+  /* Laal — Vermilion red, error/emphasis */
+  --laal-50: #fff1f0;
+  --laal-100: #ffe0de;
+  --laal-200: #ffc2bf;
+  --laal-300: #ff958f;
+  --laal-400: #ff5c53;
+  --laal-500: #e83428;
+  --laal-600: #cc2217;
+  --laal-700: #a91c12;
+  --laal-800: #8b1a13;
+  --laal-900: #741a15;
+  --laal-950: #400907;
 
   /* Dhumra — Warm gray, neutral UI */
   --dhumra-50: #f9f8f7;
@@ -101,9 +101,9 @@
   --dhumra-950: #0e0c0a;
 
   /* ===== THEME TOKENS (Semantic — Light Mode) ===== */
-  --color-primary: var(--neelkanth-600);
-  --color-primary-hover: var(--neelkanth-700);
-  --color-primary-light: var(--neelkanth-100);
+  --color-primary: var(--firoza-600);
+  --color-primary-hover: var(--firoza-700);
+  --color-primary-light: var(--firoza-100);
   --color-primary-foreground: #ffffff;
 
   --color-info: var(--mayura-600);
@@ -117,17 +117,17 @@
   --color-secondary-light: var(--color-info-light);
   --color-secondary-foreground: var(--color-info-foreground);
 
-  --color-accent: var(--surya-500);
-  --color-accent-hover: var(--surya-600);
-  --color-accent-light: var(--surya-100);
-  --color-accent-foreground: var(--surya-950);
+  --color-accent: var(--sona-500);
+  --color-accent-hover: var(--sona-600);
+  --color-accent-light: var(--sona-100);
+  --color-accent-foreground: var(--sona-950);
 
   --color-success: var(--vana-500);
   --color-success-light: var(--vana-100);
-  --color-error: var(--sindoor-500);
-  --color-error-light: var(--sindoor-100);
-  --color-warning: var(--surya-600);
-  --color-warning-light: var(--surya-100);
+  --color-error: var(--laal-500);
+  --color-error-light: var(--laal-100);
+  --color-warning: var(--sona-600);
+  --color-warning-light: var(--sona-100);
 
   --color-warm: var(--mitti-500);
   --color-warm-light: var(--mitti-100);
@@ -147,7 +147,7 @@
 
   --color-border: var(--dhumra-200);
   --color-border-strong: var(--dhumra-300);
-  --color-border-focus: var(--neelkanth-500);
+  --color-border-focus: var(--firoza-500);
 
   /* ===== TYPOGRAPHY ===== */
   --font-heading: 'Merriweather', Georgia, serif;
@@ -223,9 +223,9 @@
 
 /* ===== DARK MODE OVERRIDES ===== */
 .dark {
-  --color-primary: var(--neelkanth-300);
-  --color-primary-hover: var(--neelkanth-200);
-  --color-primary-light: var(--neelkanth-900);
+  --color-primary: var(--firoza-300);
+  --color-primary-hover: var(--firoza-200);
+  --color-primary-light: var(--firoza-900);
   --color-primary-foreground: var(--dhumra-900);
 
   --color-info: var(--mayura-300);
@@ -238,17 +238,17 @@
   --color-secondary-light: var(--color-info-light);
   --color-secondary-foreground: var(--color-info-foreground);
 
-  --color-accent: var(--surya-400);
-  --color-accent-hover: var(--surya-300);
-  --color-accent-light: var(--surya-900);
-  --color-accent-foreground: var(--surya-50);
+  --color-accent: var(--sona-400);
+  --color-accent-hover: var(--sona-300);
+  --color-accent-light: var(--sona-900);
+  --color-accent-foreground: var(--sona-50);
 
   --color-success: var(--vana-400);
   --color-success-light: var(--vana-900);
-  --color-error: var(--sindoor-400);
-  --color-error-light: var(--sindoor-900);
-  --color-warning: var(--surya-400);
-  --color-warning-light: var(--surya-900);
+  --color-error: var(--laal-400);
+  --color-error-light: var(--laal-900);
+  --color-warning: var(--sona-400);
+  --color-warning-light: var(--sona-900);
 
   --color-warm: var(--mitti-400);
   --color-warm-light: var(--mitti-900);
@@ -268,7 +268,7 @@
 
   --color-border: var(--dhumra-700);
   --color-border-strong: var(--dhumra-600);
-  --color-border-focus: var(--neelkanth-400);
+  --color-border-focus: var(--firoza-400);
 
   --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.2);
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.2);

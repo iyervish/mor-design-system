@@ -33,11 +33,11 @@ export default function WelfareApplication() {
       <GovBanner />
 
       {/* Header */}
-      <header style={{ backgroundColor: 'var(--vana-900)', borderBottom: '3px solid var(--surya-400)' }}>
+      <header style={{ backgroundColor: 'var(--vana-900)', borderBottom: '3px solid var(--sona-400)' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ backgroundColor: 'var(--vana-700)' }}>
-              <Wheat size={24} style={{ color: 'var(--surya-300)' }} />
+              <Wheat size={24} style={{ color: 'var(--sona-300)' }} />
             </div>
             <div>
               <div className="text-xs font-medium" style={{ color: 'var(--vana-300)' }}>

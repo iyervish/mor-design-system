@@ -73,20 +73,20 @@ export default function MCAPortal() {
       <GovBanner />
 
       {/* Header */}
-      <header style={{ backgroundColor: 'var(--neelkanth-950)', borderBottom: '3px solid var(--surya-400)' }}>
+      <header style={{ backgroundColor: 'var(--firoza-950)', borderBottom: '3px solid var(--sona-400)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center gap-4">
-            <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ backgroundColor: 'var(--neelkanth-800)' }}>
-              <Scale size={24} style={{ color: 'var(--surya-400)' }} />
+            <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ backgroundColor: 'var(--firoza-800)' }}>
+              <Scale size={24} style={{ color: 'var(--sona-400)' }} />
             </div>
             <div>
-              <div className="text-xs font-medium" style={{ color: 'var(--neelkanth-300)' }}>
+              <div className="text-xs font-medium" style={{ color: 'var(--firoza-300)' }}>
                 Ministry of Corporate Affairs — Government of India
               </div>
               <h1 className="text-xl font-bold" style={{ color: '#ffffff', fontFamily: 'var(--font-heading)' }}>
                 MCA21 Portal
               </h1>
-              <div className="text-xs" style={{ color: 'var(--neelkanth-300)' }}>
+              <div className="text-xs" style={{ color: 'var(--firoza-300)' }}>
                 mca.gov.in — V3 Portal · Company and LLP Filings
               </div>
             </div>
@@ -95,16 +95,16 @@ export default function MCAPortal() {
       </header>
 
       {/* Stats Bar */}
-      <div style={{ backgroundColor: 'var(--surya-50)', borderBottom: '1px solid var(--surya-200)' }}>
+      <div style={{ backgroundColor: 'var(--sona-50)', borderBottom: '1px solid var(--sona-200)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <div className="flex flex-wrap items-center justify-between gap-4">
             {stats.map((stat) => (
               <div key={stat.label} className="text-center">
-                <div className="text-lg font-bold" style={{ color: 'var(--surya-800)', fontFamily: 'var(--font-heading)' }}>
+                <div className="text-lg font-bold" style={{ color: 'var(--sona-800)', fontFamily: 'var(--font-heading)' }}>
                   {stat.value}
                 </div>
-                <div className="text-xs font-semibold" style={{ color: 'var(--surya-700)' }}>{stat.label}</div>
-                <div className="text-[10px]" style={{ color: 'var(--surya-500)' }}>{stat.sub}</div>
+                <div className="text-xs font-semibold" style={{ color: 'var(--sona-700)' }}>{stat.label}</div>
+                <div className="text-[10px]" style={{ color: 'var(--sona-500)' }}>{stat.sub}</div>
               </div>
             ))}
           </div>
@@ -144,12 +144,12 @@ export default function MCAPortal() {
                         className="flex items-center justify-between px-4 py-3 border-b last:border-0 cursor-pointer transition-colors"
                         style={{
                           borderColor: 'var(--color-border)',
-                          backgroundColor: cat.active ? 'var(--neelkanth-50)' : 'transparent',
-                          borderLeft: cat.active ? '3px solid var(--neelkanth-600)' : '3px solid transparent',
+                          backgroundColor: cat.active ? 'var(--firoza-50)' : 'transparent',
+                          borderLeft: cat.active ? '3px solid var(--firoza-600)' : '3px solid transparent',
                         }}
                       >
                         <span className="flex items-center gap-2 text-sm font-medium"
-                          style={{ color: cat.active ? 'var(--neelkanth-700)' : 'var(--color-text)' }}>
+                          style={{ color: cat.active ? 'var(--firoza-700)' : 'var(--color-text)' }}>
                           <Icon size={14} />
                           {cat.label}
                         </span>
@@ -209,11 +209,11 @@ export default function MCAPortal() {
                     <label key={entity.value}
                       className="flex items-center gap-3 p-3 rounded-lg border cursor-pointer transition-all"
                       style={{
-                        borderColor: i === 0 ? 'var(--neelkanth-400)' : 'var(--color-border)',
-                        backgroundColor: i === 0 ? 'var(--neelkanth-50)' : 'transparent',
+                        borderColor: i === 0 ? 'var(--firoza-400)' : 'var(--color-border)',
+                        backgroundColor: i === 0 ? 'var(--firoza-50)' : 'transparent',
                       }}>
                       <input type="radio" name="entityType" value={entity.value} defaultChecked={i === 0}
-                        className="flex-shrink-0" style={{ accentColor: 'var(--neelkanth-600)' }} />
+                        className="flex-shrink-0" style={{ accentColor: 'var(--firoza-600)' }} />
                       <span className="text-sm font-medium" style={{ color: 'var(--color-text)' }}>
                         {entity.label}
                       </span>
@@ -233,19 +233,19 @@ export default function MCAPortal() {
                   <div key={step.number}
                     className="flex gap-4 p-5 rounded-xl border transition-all"
                     style={{
-                      borderColor: step.status === 'current' ? 'var(--neelkanth-400)' : 'var(--color-border)',
-                      backgroundColor: step.status === 'current' ? 'var(--neelkanth-50)' : 'var(--color-surface)',
+                      borderColor: step.status === 'current' ? 'var(--firoza-400)' : 'var(--color-border)',
+                      backgroundColor: step.status === 'current' ? 'var(--firoza-50)' : 'var(--color-surface)',
                     }}>
                     <div className="flex flex-col items-center gap-1 flex-shrink-0 pt-1">
-                      <span className="text-xs font-bold" style={{ color: 'var(--surya-500)', fontFamily: 'var(--font-mono)' }}>
+                      <span className="text-xs font-bold" style={{ color: 'var(--sona-500)', fontFamily: 'var(--font-mono)' }}>
                         {step.number}
                       </span>
                       <div className="w-8 h-8 rounded-full flex items-center justify-center"
                         style={{
                           backgroundColor: step.status === 'complete' ? 'var(--vana-100)' :
-                            step.status === 'current' ? 'var(--neelkanth-100)' : 'var(--dhumra-100)',
+                            step.status === 'current' ? 'var(--firoza-100)' : 'var(--dhumra-100)',
                           color: step.status === 'complete' ? 'var(--vana-600)' :
-                            step.status === 'current' ? 'var(--neelkanth-600)' : 'var(--dhumra-400)',
+                            step.status === 'current' ? 'var(--firoza-600)' : 'var(--dhumra-400)',
                         }}>
                         {step.status === 'complete' ? <CheckCircle2 size={16} /> : <FileText size={16} />}
                       </div>

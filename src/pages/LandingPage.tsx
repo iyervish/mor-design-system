@@ -113,8 +113,8 @@ export default function LandingPage() {
         </div>
       </header>
 
-      {/* ═══ HERO — Deep Neelkanth, Peacock at Dusk ═══ */}
-      <section className="relative overflow-hidden" style={{ backgroundColor: 'var(--neelkanth-950)' }}>
+      {/* ═══ HERO — Deep Firoza, Peacock at Dusk ═══ */}
+      <section className="relative overflow-hidden" style={{ backgroundColor: 'var(--firoza-950)' }}>
         {/* Paisley contour background */}
         <div className="absolute inset-0" aria-hidden="true">
           <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" className="opacity-100">
@@ -176,7 +176,7 @@ export default function LandingPage() {
               <Link
                 to="/components"
                 className="group inline-flex items-center gap-2.5 px-7 py-3.5 rounded-lg text-base font-semibold no-underline transition-all"
-                style={{ backgroundColor: 'var(--surya-400)', color: 'var(--neelkanth-950)', fontFamily: 'var(--font-body)' }}
+                style={{ backgroundColor: 'var(--sona-400)', color: 'var(--firoza-950)', fontFamily: 'var(--font-body)' }}
               >
                 Explore Components
                 <ArrowRight size={18} className="transition-transform group-hover:translate-x-0.5" />
@@ -240,7 +240,7 @@ export default function LandingPage() {
           className="max-w-3xl mx-auto text-center"
         >
           <p className="text-xs font-semibold tracking-[0.2em] uppercase mb-6"
-            style={{ color: 'var(--surya-500)' }}>
+            style={{ color: 'var(--sona-500)' }}>
             The Problem
           </p>
           <h2
@@ -296,8 +296,8 @@ export default function LandingPage() {
             {/* Tab bar */}
             <div className="flex items-center gap-4 px-6 py-3 border-b" style={{ borderColor: 'var(--color-border)', backgroundColor: 'var(--color-background-subtle)' }}>
               <div className="flex items-center gap-1.5">
-                <div className="w-3 h-3 rounded-full" style={{ backgroundColor: 'var(--sindoor-400)' }} />
-                <div className="w-3 h-3 rounded-full" style={{ backgroundColor: 'var(--surya-400)' }} />
+                <div className="w-3 h-3 rounded-full" style={{ backgroundColor: 'var(--laal-400)' }} />
+                <div className="w-3 h-3 rounded-full" style={{ backgroundColor: 'var(--sona-400)' }} />
                 <div className="w-3 h-3 rounded-full" style={{ backgroundColor: 'var(--vana-400)' }} />
               </div>
               <span className="text-xs font-mono" style={{ color: 'var(--color-text-muted)' }}>
@@ -396,7 +396,7 @@ export default function LandingPage() {
                 >
                   <div
                     className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0"
-                    style={{ backgroundColor: 'var(--surya-100)', color: 'var(--surya-700)' }}
+                    style={{ backgroundColor: 'var(--sona-100)', color: 'var(--sona-700)' }}
                   >
                     <Icon size={20} />
                   </div>
@@ -474,9 +474,9 @@ export default function LandingPage() {
                 label: 'System',
                 sublabel: 'Indian Nature & Culture',
                 items: [
-                  { name: 'neelkanth-600', color: 'var(--neelkanth-600)' },
-                  { name: 'surya-500', color: 'var(--surya-500)' },
-                  { name: 'sindoor-500', color: 'var(--sindoor-500)' },
+                  { name: 'firoza-600', color: 'var(--firoza-600)' },
+                  { name: 'sona-500', color: 'var(--sona-500)' },
+                  { name: 'laal-500', color: 'var(--laal-500)' },
                 ],
               },
               {
@@ -504,7 +504,7 @@ export default function LandingPage() {
                   style={{ borderColor: 'var(--color-border)', backgroundColor: 'var(--color-surface)' }}
                 >
                   <div className="flex items-baseline gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--surya-500)' }}>
+                    <span className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--sona-500)' }}>
                       {layer.label}
                     </span>
                   </div>
@@ -535,7 +535,7 @@ export default function LandingPage() {
 
       {/* ═══ CTA ═══ */}
       <section className="py-24 px-6 lg:px-10 relative overflow-hidden"
-        style={{ backgroundColor: 'var(--neelkanth-950)' }}>
+        style={{ backgroundColor: 'var(--firoza-950)' }}>
         {/* Subtle paisley texture */}
         <div className="absolute inset-0 opacity-30" aria-hidden="true">
           <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -561,7 +561,7 @@ export default function LandingPage() {
             <Link
               to="/components"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-base font-semibold no-underline"
-              style={{ backgroundColor: 'var(--surya-400)', color: 'var(--neelkanth-950)' }}
+              style={{ backgroundColor: 'var(--sona-400)', color: 'var(--firoza-950)' }}
             >
               Browse Components
               <ArrowRight size={18} />

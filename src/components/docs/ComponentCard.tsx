@@ -22,7 +22,7 @@ export default function ComponentCard({ component }: ComponentCardProps) {
         backgroundColor: 'var(--color-surface)',
       }}
       onMouseEnter={e => {
-        (e.currentTarget as HTMLElement).style.borderColor = 'var(--surya-300)';
+        (e.currentTarget as HTMLElement).style.borderColor = 'var(--sona-300)';
         (e.currentTarget as HTMLElement).style.boxShadow = '0 4px 12px rgba(212,168,50,0.08)';
       }}
       onMouseLeave={e => {

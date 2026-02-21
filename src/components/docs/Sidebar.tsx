@@ -21,8 +21,8 @@ function NavSection({ item, onNavigate }: { item: NavItem; onNavigate: () => voi
         onClick={onNavigate}
         className="block px-3 py-2 rounded-md text-[13px] font-medium transition-all no-underline"
         style={{
-          color: isActive ? 'var(--neelkanth-950)' : 'var(--color-text-secondary)',
-          backgroundColor: isActive ? 'var(--surya-100)' : 'transparent',
+          color: isActive ? 'var(--firoza-950)' : 'var(--color-text-secondary)',
+          backgroundColor: isActive ? 'var(--sona-100)' : 'transparent',
           fontFamily: 'var(--font-body)',
         }}
       >
@@ -63,8 +63,8 @@ function NavSection({ item, onNavigate }: { item: NavItem; onNavigate: () => voi
                 style={{
                   color: childActive ? 'var(--color-text)' : 'var(--color-text-secondary)',
                   fontWeight: childActive ? 600 : 400,
-                  backgroundColor: childActive ? 'var(--surya-100)' : 'transparent',
-                  borderLeft: childActive ? '2px solid var(--surya-500)' : '2px solid transparent',
+                  backgroundColor: childActive ? 'var(--sona-100)' : 'transparent',
+                  borderLeft: childActive ? '2px solid var(--sona-500)' : '2px solid transparent',
                   fontFamily: 'var(--font-body)',
                 }}
               >

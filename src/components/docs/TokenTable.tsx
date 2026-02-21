@@ -17,14 +17,14 @@ export default function TokenTable({ headers, rows }: TokenTableProps) {
     >
       <table className="w-full text-sm">
         <thead>
-          <tr style={{ backgroundColor: 'var(--neelkanth-950)' }}>
+          <tr style={{ backgroundColor: 'var(--firoza-950)' }}>
             {headers.map(header => (
               <th
                 key={header}
                 className="text-left px-4 py-3 font-semibold text-xs uppercase tracking-wider border-b"
                 style={{
-                  color: 'var(--surya-300)',
-                  borderColor: 'var(--neelkanth-800)',
+                  color: 'var(--sona-300)',
+                  borderColor: 'var(--firoza-800)',
                   fontFamily: 'var(--font-mono)',
                 }}
               >

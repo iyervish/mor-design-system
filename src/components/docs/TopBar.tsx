@@ -53,8 +53,8 @@ export default function TopBar({ theme, onToggleTheme, sidebarOpen, onToggleSide
             <span
               className="text-[10px] px-1.5 py-0.5 rounded font-semibold uppercase tracking-wider"
               style={{
-                backgroundColor: 'var(--surya-100)',
-                color: 'var(--surya-700)',
+                backgroundColor: 'var(--sona-100)',
+                color: 'var(--sona-700)',
               }}
             >
               v1.0

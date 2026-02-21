@@ -75,20 +75,20 @@ export default function PIBAnnouncements() {
       <GovBanner />
 
       {/* Header */}
-      <header style={{ backgroundColor: 'var(--neelkanth-950)', borderBottom: '3px solid var(--surya-400)' }}>
+      <header style={{ backgroundColor: 'var(--firoza-950)', borderBottom: '3px solid var(--sona-400)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center gap-4">
-            <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ backgroundColor: 'var(--neelkanth-800)' }}>
-              <Newspaper size={24} style={{ color: 'var(--surya-400)' }} />
+            <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ backgroundColor: 'var(--firoza-800)' }}>
+              <Newspaper size={24} style={{ color: 'var(--sona-400)' }} />
             </div>
             <div>
-              <div className="text-xs font-medium" style={{ color: 'var(--neelkanth-300)' }}>
+              <div className="text-xs font-medium" style={{ color: 'var(--firoza-300)' }}>
                 Government of India
               </div>
               <h1 className="text-xl font-bold" style={{ color: '#ffffff', fontFamily: 'var(--font-heading)' }}>
                 Press Information Bureau
               </h1>
-              <div className="text-xs" style={{ color: 'var(--neelkanth-300)' }}>
+              <div className="text-xs" style={{ color: 'var(--firoza-300)' }}>
                 pib.gov.in — Official Press Releases
               </div>
             </div>
@@ -141,8 +141,8 @@ export default function PIBAnnouncements() {
         {/* Featured Press Release */}
         <div className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <SearchIcon size={15} style={{ color: 'var(--surya-600)' }} />
-            <span className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--surya-600)' }}>
+            <SearchIcon size={15} style={{ color: 'var(--sona-600)' }} />
+            <span className="text-xs font-bold uppercase tracking-wider" style={{ color: 'var(--sona-600)' }}>
               Featured Release
             </span>
           </div>
@@ -171,8 +171,8 @@ export default function PIBAnnouncements() {
                   </div>
                 </div>
                 <div className="hidden md:flex items-center justify-center w-40 h-28 rounded-xl flex-shrink-0"
-                  style={{ backgroundColor: 'var(--neelkanth-50)' }}>
-                  <Newspaper size={40} style={{ color: 'var(--neelkanth-300)' }} />
+                  style={{ backgroundColor: 'var(--firoza-50)' }}>
+                  <Newspaper size={40} style={{ color: 'var(--firoza-300)' }} />
                 </div>
               </div>
             </CardContent>

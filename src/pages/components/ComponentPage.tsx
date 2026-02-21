@@ -62,8 +62,8 @@ export default function ComponentPage() {
           <span
             className="text-[10px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider"
             style={{
-              backgroundColor: meta.status === 'stable' ? 'var(--vana-100)' : 'var(--surya-100)',
-              color: meta.status === 'stable' ? 'var(--vana-600)' : 'var(--surya-700)',
+              backgroundColor: meta.status === 'stable' ? 'var(--vana-100)' : 'var(--sona-100)',
+              color: meta.status === 'stable' ? 'var(--vana-600)' : 'var(--sona-700)',
             }}
           >
             {meta.status}

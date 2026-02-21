@@ -59,8 +59,8 @@ export default function LivePreview({ children, code, title }: LivePreviewProps)
           onClick={() => setShowCode(!showCode)}
           className="text-xs font-medium px-2.5 py-1 rounded flex items-center gap-1.5 transition-all"
           style={{
-            color: showCode ? 'var(--surya-700)' : 'var(--color-text-muted)',
-            backgroundColor: showCode ? 'var(--surya-100)' : 'transparent',
+            color: showCode ? 'var(--sona-700)' : 'var(--color-text-muted)',
+            backgroundColor: showCode ? 'var(--sona-100)' : 'transparent',
           }}
         >
           {showCode ? <Eye size={12} /> : <Code2 size={12} />}

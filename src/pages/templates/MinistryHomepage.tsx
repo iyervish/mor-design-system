@@ -53,21 +53,21 @@ export default function MinistryHomepage() {
       <GovBanner />
 
       {/* Header */}
-      <header style={{ backgroundColor: 'var(--neelkanth-950)', borderBottom: '3px solid var(--surya-400)' }}>
+      <header style={{ backgroundColor: 'var(--firoza-950)', borderBottom: '3px solid var(--sona-400)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <div className="w-14 h-14 rounded-lg flex items-center justify-center" style={{ backgroundColor: 'var(--neelkanth-800)' }}>
-                <Building2 size={28} style={{ color: 'var(--surya-400)' }} />
+              <div className="w-14 h-14 rounded-lg flex items-center justify-center" style={{ backgroundColor: 'var(--firoza-800)' }}>
+                <Building2 size={28} style={{ color: 'var(--sona-400)' }} />
               </div>
               <div>
-                <div className="text-xs font-medium tracking-wide uppercase" style={{ color: 'var(--neelkanth-300)' }}>
+                <div className="text-xs font-medium tracking-wide uppercase" style={{ color: 'var(--firoza-300)' }}>
                   Government of India
                 </div>
                 <h1 className="text-xl font-bold" style={{ color: '#ffffff', fontFamily: 'var(--font-heading)' }}>
                   Ministry of Electronics & Information Technology
                 </h1>
-                <div className="text-xs mt-0.5" style={{ color: 'var(--neelkanth-300)' }}>
+                <div className="text-xs mt-0.5" style={{ color: 'var(--firoza-300)' }}>
                   MeitY — meity.gov.in
                 </div>
               </div>
@@ -75,7 +75,7 @@ export default function MinistryHomepage() {
             <nav className="hidden lg:flex items-center gap-6">
               {['About', 'Divisions', 'Schemes', 'Press', 'Contact'].map(item => (
                 <a key={item} href="#" className="text-sm no-underline transition-colors hover:text-white"
-                  style={{ color: 'var(--neelkanth-300)' }}>
+                  style={{ color: 'var(--firoza-300)' }}>
                   {item}
                 </a>
               ))}
@@ -85,14 +85,14 @@ export default function MinistryHomepage() {
       </header>
 
       {/* Hero / Search */}
-      <section style={{ backgroundColor: 'var(--neelkanth-900)' }}>
+      <section style={{ backgroundColor: 'var(--firoza-900)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
           <Badge variant="info" className="mb-4">Digital India Initiative</Badge>
           <h2 className="text-3xl md:text-4xl font-bold mb-4"
             style={{ fontFamily: 'var(--font-heading)', color: '#ffffff', letterSpacing: '-0.02em' }}>
             Transforming India through Technology
           </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto" style={{ color: 'var(--neelkanth-200)' }}>
+          <p className="text-lg mb-8 max-w-2xl mx-auto" style={{ color: 'var(--firoza-200)' }}>
             Access government digital services, schemes, and citizen resources from the Ministry of Electronics & IT.
           </p>
           <div className="max-w-xl mx-auto">
@@ -136,7 +136,7 @@ export default function MinistryHomepage() {
                     <div className="flex items-start justify-between gap-2">
                       <div className="flex items-center gap-3">
                         <div className="w-10 h-10 rounded-lg flex items-center justify-center"
-                          style={{ backgroundColor: 'var(--neelkanth-100)', color: 'var(--neelkanth-700)' }}>
+                          style={{ backgroundColor: 'var(--firoza-100)', color: 'var(--firoza-700)' }}>
                           <Icon size={20} />
                         </div>
                         <div>
@@ -219,43 +219,43 @@ export default function MinistryHomepage() {
       </section>
 
       {/* Footer */}
-      <footer style={{ backgroundColor: 'var(--neelkanth-950)', borderTop: '1px solid var(--neelkanth-800)' }}>
+      <footer style={{ backgroundColor: 'var(--firoza-950)', borderTop: '1px solid var(--firoza-800)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-sm font-bold mb-3" style={{ color: 'var(--neelkanth-200)', fontFamily: 'var(--font-heading)' }}>
+              <h3 className="text-sm font-bold mb-3" style={{ color: 'var(--firoza-200)', fontFamily: 'var(--font-heading)' }}>
                 Ministry of Electronics & IT
               </h3>
-              <p className="text-xs leading-relaxed" style={{ color: 'var(--neelkanth-400)' }}>
+              <p className="text-xs leading-relaxed" style={{ color: 'var(--firoza-400)' }}>
                 Electronics Niketan, 6, CGO Complex, Lodhi Road, New Delhi — 110003
               </p>
             </div>
             <div>
-              <h3 className="text-sm font-bold mb-3" style={{ color: 'var(--neelkanth-200)' }}>Contact</h3>
+              <h3 className="text-sm font-bold mb-3" style={{ color: 'var(--firoza-200)' }}>Contact</h3>
               <div className="space-y-1">
                 {[
                   { icon: Phone, text: '1800-111-555 (Toll Free)' },
                   { icon: Mail, text: 'helpdesk@meity.gov.in' },
                   { icon: MapPin, text: 'New Delhi — 110003' },
                 ].map(({ icon: Icon, text }) => (
-                  <div key={text} className="flex items-center gap-2 text-xs" style={{ color: 'var(--neelkanth-400)' }}>
+                  <div key={text} className="flex items-center gap-2 text-xs" style={{ color: 'var(--firoza-400)' }}>
                     <Icon size={12} />{text}
                   </div>
                 ))}
               </div>
             </div>
             <div>
-              <h3 className="text-sm font-bold mb-3" style={{ color: 'var(--neelkanth-200)' }}>Quick Links</h3>
+              <h3 className="text-sm font-bold mb-3" style={{ color: 'var(--firoza-200)' }}>Quick Links</h3>
               <div className="grid grid-cols-2 gap-1">
                 {['RTI', 'Tenders', 'Policies', 'Careers', 'Sitemap', 'Disclaimer'].map(item => (
-                  <a key={item} href="#" className="text-xs no-underline hover:underline" style={{ color: 'var(--neelkanth-400)' }}>
+                  <a key={item} href="#" className="text-xs no-underline hover:underline" style={{ color: 'var(--firoza-400)' }}>
                     {item}
                   </a>
                 ))}
               </div>
             </div>
           </div>
-          <div className="mt-8 pt-4 border-t text-xs text-center" style={{ borderColor: 'var(--neelkanth-800)', color: 'var(--neelkanth-500)' }}>
+          <div className="mt-8 pt-4 border-t text-xs text-center" style={{ borderColor: 'var(--firoza-800)', color: 'var(--firoza-500)' }}>
             © 2026 Ministry of Electronics and Information Technology, Government of India. All rights reserved.
           </div>
         </div>

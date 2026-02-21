@@ -15,17 +15,17 @@ export default function ComponentsOverview() {
       {/* Stats strip */}
       <div
         className="flex items-center gap-6 mt-6 mb-8 px-5 py-3 rounded-lg"
-        style={{ backgroundColor: 'var(--surya-50)', border: '1px solid var(--surya-200)' }}
+        style={{ backgroundColor: 'var(--sona-50)', border: '1px solid var(--sona-200)' }}
       >
         <div className="flex items-center gap-2">
-          <span className="text-2xl font-bold" style={{ color: 'var(--surya-600)', fontFamily: 'var(--font-heading)' }}>
+          <span className="text-2xl font-bold" style={{ color: 'var(--sona-600)', fontFamily: 'var(--font-heading)' }}>
             {components.length}
           </span>
-          <span className="text-xs uppercase tracking-wider font-medium" style={{ color: 'var(--surya-700)' }}>
+          <span className="text-xs uppercase tracking-wider font-medium" style={{ color: 'var(--sona-700)' }}>
             Components
           </span>
         </div>
-        <div className="w-px h-6" style={{ backgroundColor: 'var(--surya-200)' }} />
+        <div className="w-px h-6" style={{ backgroundColor: 'var(--sona-200)' }} />
         <div className="flex items-center gap-2">
           <span className="text-2xl font-bold" style={{ color: 'var(--vana-600)', fontFamily: 'var(--font-heading)' }}>
             {components.filter(c => c.status === 'stable').length}
@@ -34,12 +34,12 @@ export default function ComponentsOverview() {
             Stable
           </span>
         </div>
-        <div className="w-px h-6" style={{ backgroundColor: 'var(--surya-200)' }} />
+        <div className="w-px h-6" style={{ backgroundColor: 'var(--sona-200)' }} />
         <div className="flex items-center gap-2">
-          <span className="text-2xl font-bold" style={{ color: 'var(--neelkanth-600)', fontFamily: 'var(--font-heading)' }}>
+          <span className="text-2xl font-bold" style={{ color: 'var(--firoza-600)', fontFamily: 'var(--font-heading)' }}>
             {categories.length}
           </span>
-          <span className="text-xs uppercase tracking-wider font-medium" style={{ color: 'var(--neelkanth-600)' }}>
+          <span className="text-xs uppercase tracking-wider font-medium" style={{ color: 'var(--firoza-600)' }}>
             Categories
           </span>
         </div>
@@ -53,8 +53,8 @@ export default function ComponentsOverview() {
               <span
                 className="text-xs font-bold px-1.5 py-0.5 rounded"
                 style={{
-                  backgroundColor: 'var(--surya-100)',
-                  color: 'var(--surya-700)',
+                  backgroundColor: 'var(--sona-100)',
+                  color: 'var(--sona-700)',
                   fontFamily: 'var(--font-mono)',
                 }}
               >

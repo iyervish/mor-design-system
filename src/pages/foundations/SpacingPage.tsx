@@ -66,7 +66,7 @@ export default function SpacingPage() {
                 className="h-5 rounded-sm"
                 style={{
                   width: `${token.px * 2}px`,
-                  background: `linear-gradient(90deg, var(--neelkanth-600), var(--surya-500))`,
+                  background: `linear-gradient(90deg, var(--firoza-600), var(--sona-500))`,
                   opacity: 0.2 + (token.px / 96) * 0.8,
                 }}
               />
@@ -92,8 +92,8 @@ export default function SpacingPage() {
                 className="w-16 h-16 mb-2 border-2"
                 style={{
                   borderRadius: token.value,
-                  borderColor: 'var(--surya-400)',
-                  backgroundColor: 'var(--surya-50)',
+                  borderColor: 'var(--sona-400)',
+                  backgroundColor: 'var(--sona-50)',
                 }}
               />
               <div className="text-xs font-semibold" style={{ color: 'var(--color-text)', fontFamily: 'var(--font-body)' }}>

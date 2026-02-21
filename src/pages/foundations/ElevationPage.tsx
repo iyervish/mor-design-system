@@ -41,8 +41,8 @@ export default function ElevationPage() {
                 <span
                   className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full"
                   style={{
-                    backgroundColor: 'var(--surya-100)',
-                    color: 'var(--surya-700)',
+                    backgroundColor: 'var(--sona-100)',
+                    color: 'var(--sona-700)',
                     fontFamily: 'var(--font-mono)',
                   }}
                 >
